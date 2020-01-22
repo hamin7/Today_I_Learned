@@ -34,59 +34,53 @@
 
 
 
-### 구현코드
+### 구현코드 (완주하지 못한 선수)
 ~~~cpp
-#include <iostream>
-#include <map>
 #include <string>
+#include <vector>
+#include <map>
 
 using namespace std;
 
-int main(){
+string solution(vector<string> participant, vector<string> completion) {
 
-	// map
-	// <string, int> => <key, value>
-	map< string, int > m;
+    int size = completion.size();
 
+    map<string, int> name;
+    int* num = new int[size];
+    for(int i=0 ; i<size ; i++)
+    {
+        num[i] = 1;
+    }
 
-	// insert(key,value)
-	m.insert(make_pair("a", 1));
-	m.insert(make_pair("b", 2));
-	m.insert(make_pair("c", 3));
-	m.insert(make_pair("d", 4));
-	m.insert(make_pair("e", 5));
-	m["f"] = 6; // also possible
+    //completion으로 명단 작성
+    map<string, int>::iterator it;
+    for(int i=0 ; i<size ; i++)
+    {
+        it = name.find(completion[i]);
+        if(name.count(completion[i]) == 0)
+            name.insert(pair<string, int>(completion[i], i));
+        else //이미 있으면 인원 추가
+            num[it->second]++;
+    }
 
+    //participant로 명단과 대조하여 체크
+    for(int i=0 ; i<size+1 ; i++)
+    {        
+        if(name.count(participant[i]) == 0) //명단에 없으면 바로 출력
+            return participant[i];
+        else //명단에 있으면
+        {
+            it = name.find(participant[i]);
 
-	// erase(key)
-	m.erase("d");
-	m.erase("e");
-	m.erase(m.find("f")); // also possible
+            if(num[it->second] <= 0)
+                 return participant[i];
+            else
+                 num[it->second]--;
+        }
+    }
 
-
-	// empty(), size()
-	if(!m.empty()) cout << "m size : " << m.size() << '\n';
-
-
-	// find(key)
-	cout << "a : " << m.find("a")->second << '\n';
-	cout << "b : " << m.find("b")->second << '\n';
-
-
-	// count(key)
-	cout << "a count : " << m.count("a") << '\n';
-	cout << "b count : " << m.count("b") << '\n';
-
-
-	// begin(), end()
-	cout << "traverse" << '\n';
-    // map< string, int >::iterator it; also possible 
-	for(auto it = m.begin(); it != m.end(); it++){
-		cout << "key : " << it->first << " " << "value : " << it->second << '\n';
-	}
-
-	return 0;
-
+    return "";
 }
 ~~~
 
