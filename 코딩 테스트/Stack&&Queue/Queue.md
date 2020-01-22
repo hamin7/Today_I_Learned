@@ -90,3 +90,5 @@ int solution(vector<int> priorities, int location)
     return answer;
 }
 ~~~
+
+### 참고 : https://twpower.github.io/76-how-to-use-queue-in-cpp
