@@ -34,7 +34,7 @@
 
 
 
-### 구현코드 (완주하지 못한 선수)
+### 사용 예시 (완주하지 못한 선수)
 ~~~cpp
 #include <string>
 #include <vector>
