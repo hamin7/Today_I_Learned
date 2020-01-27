@@ -8,7 +8,7 @@ Vector|  |[Vector](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%
 Queue|  |[Queue](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테스트/Stack%26%26Queue/Queue.md)
 Priority_Queue|  |[Priority_queue](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테스트/Stack%26%26Queue/Queue.md)
 Queue_pair|  |[Queue_pair]()
-Sort|   |[Sort](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테스트/Sort/Sort.md)
+Sort| 정렬을 해 놓은 후 문제를 해결하기 쉽다면 사용 |[Sort](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테스트/Sort/Sort.md)
 Map|   |[Map](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테스트/Hash/Map.md)
 
 
