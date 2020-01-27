@@ -16,9 +16,7 @@ Map|   |[Map](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테
 
 [스터디 링크](https://github.com/suhyun1/algorithm-study)
 
-# algorithm 문제풀이
-
-## 백준
+### 백준
 ### Greedy, Brute-Force
 
 Baekjoon Number| Code |
