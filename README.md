@@ -62,7 +62,7 @@ Baekjoon Number| Code |
 Baekjoon Number| Code |
 -|-
 더 맵게<br/>(음식을 섞어서 스코빌 지수 맞추기)|[code](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테스트/Heap/ramenFactory.cpp)|
-라면공장<br>|
+라면공장<br>(매일 1톤씩 필요로 하는 라면공장에서 최소 몇 번 밀가루를 공급 받아야 할까?)|[code](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테스트/Heap/ramenFactory.cpp)
 
 
 ### 정렬
