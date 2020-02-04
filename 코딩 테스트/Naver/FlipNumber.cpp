@@ -24,3 +24,6 @@ int solution(vector<int> &A) {
     
     return min(getFlipNumber(A, 0), getFlipNumber(A,1));
 }
+
+
+// 참고 : https://www.geeksforgeeks.org/number-flips-make-binary-string-alternate/
