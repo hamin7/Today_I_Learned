@@ -1,26 +1,34 @@
-#include <string>
+// you can use includes, for example:
+#include <algorithm>
 #include <vector>
-#include <queue>
 
-using namespace std;
+// you can write to stdout for debugging purposes, e.g.
+// cout << "this is a debug message" << endl;
 
-int solution(int stock, vector<int> dates, vector<int> supplies, int k) {
-    int answer = 0;
+int solution(vector<int> &A) {
+
+    // write your code in C++14 (g++ 6.2.0)
+    sort(A.begin(), A.end());
+    // unique(A.begin(), A.end());
     
-    priority_queue<int> big_order;
-    
-    int index = 0;
-    for(int day=0; day<k; day++){
-        if(day == dates[index]){    // 공급되는 날이라면.
-            big_order.push(supplies[index]);    // 공급량을 big_order에 추가.
-            index++;    // index는 무슨 역할?
+    int index = 1;
+    for(int i=0;i<(int)A.size();){
+        if(A[i]<=0){
+            i++;
+            continue;
         }
-        if(stock == 0){
-            stock = big_order.top();    // top에 있는 원소 반환
-            big_order.pop();
-            answer++;
+            
+        if(A[i]!=index)
+            return index;
+            
+        while(A[i]==index){
+            i++;
         }
-        stock--;
+        index++;
+        
     }
-    return answer;
+    if(index==1) return 1;
+    else return index;
+    
+    
 }
