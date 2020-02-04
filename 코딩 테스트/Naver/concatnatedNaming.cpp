@@ -53,3 +53,6 @@ int solution(vector<string>& A){
          
     return result;
 }
+
+
+// 문제 : https://www.geeksforgeeks.org/find-the-longest-string-that-can-be-made-up-of-other-strings-from-the-array/
