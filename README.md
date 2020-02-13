@@ -107,6 +107,6 @@ Baekjoon Number| Code |
 ### Codility (2020.1.23)
 Codility| Key Point | Code
 -|-|-
-FlipNumber| | [C++](Naver/FlipNumber.cpp)
-Palindrome| | [C++](Naver/Palindrome.cpp)
+FlipNumber| | [C++](CodingTest/Naver/FlipNumber.cpp)
+Palindrome| | [C++](CodingTest/Naver/Palindrome.cpp)
 
