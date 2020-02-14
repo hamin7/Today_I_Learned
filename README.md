@@ -99,7 +99,7 @@ Baekjoon Number| Code |
 ### 동적계획법 (Dynamic Programming)
 Baekjoon Number| Code |
 -|-
-등굣길 <br> |
+등굣길 <br> | [C++](CodingTest/DynamicProgramming/roadToSchool.cpp)
 
 
 ## 네이버 코테
