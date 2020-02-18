@@ -1,11 +1,10 @@
 #include <string>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
 vector<bool> check; // 탐색한 단어 재탐색하지 않도록 처리.
-int answer = 51;
+int answer = 51;    // 50개 이하의 단어 이므로 가장 큰 경우(50) 대비해 51로 세팅.
 
 void dfs(vector<string> words, string now, string target, int depth) {
     // 완성 비교.
@@ -14,10 +13,10 @@ void dfs(vector<string> words, string now, string target, int depth) {
         return;
     }
     
-    // 한 개 차이나면 들어가기.
+    // words의 각 단어 마다 비교.
     for (int i = 0; i < words.size(); i++) {
         // now와 words의 단어가 하나만 다르면 변경 가능.
-        int diff = 0;
+        int diff = 0;   // 몇개의 스펠링이 다른지 나타내는 diff.
         if (check[i] == true)   // 탐색했던 단어라면 재탐색 하지 말기.
             continue;
         
@@ -37,10 +36,11 @@ void dfs(vector<string> words, string now, string target, int depth) {
 }
 
 int solution(string begin, string target, vector<string> words) {
-    // 변환할 수 없는 경우.
-    if (find(words.begin(), words.end(), target) == words.end())
-        return 0;
     check.assign(words.size(), false);  // 벡터 check를 모두 false로 초기화.
     dfs(words, begin, target, 0);
+    // 변환할 수 없는 경우.
+    if (answer == 51)
+        return 0;
+    
     return answer;
 }
