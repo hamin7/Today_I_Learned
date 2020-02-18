@@ -58,7 +58,7 @@ Baekjoon Number| Code |
 기능개발 <br/> (기능 별 개발 속도에 따른 시점 별 배포 가능 가짓 수)| [code](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/FunctionDevelopment.cpp)
 프린터<br/>(중요도 순으로 인쇄할 때, 내가 요청한 문서의 순서) |[code](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Printer.cpp)
 쇠막대기<br>(레이저로 쇠막대기 자른 후 갯수 세기)|[code](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Iron_Stick.cpp)|
-다리를 지나는 트럭<br>()|[code]()
+다리를 지나는 트럭<br>(무게제한이 있는 다리에서 모든 트럭이 건너는 시간 구하기)|[code]()
 
 ### 힙
 Baekjoon Number| Code |
