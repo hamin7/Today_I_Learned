@@ -1,5 +1,3 @@
-// 아직 미완성 (core dumped)
-
 #include <string>
 #include <vector>
 #include <stack>
@@ -8,15 +6,13 @@ using namespace std;
 
 vector<int> solution(vector<int> prices) {
     stack<int> time;
-    vector<int> answer;
-    //int i = 0;
+    vector<int> answer(prices.size());      // vector<int> answer;로 사이즈 안정해 주면 core dump 나는 이유는?
     
-    //time.push(i);
     for (int i = 0; i < prices.size(); i++) {
         while (!time.empty() && prices[i] < prices[time.top()]) {
             int beginIdx = time.top();     // Java의 경우 그냥 pop하면 되지만, C++은 top 한 후 pop해줘야 함.
             time.pop();
-            //answer[beginIdx] = i - beginIdx;
+            answer[beginIdx] = i - beginIdx;
         }
         time.push(i);
     }
