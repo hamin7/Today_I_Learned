@@ -59,7 +59,7 @@ Baekjoon Number| C++ | Java
 프린터<br/>(중요도 순으로 인쇄할 때, 내가 요청한 문서의 순서) |[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Printer.cpp)
 쇠막대기<br>(레이저로 쇠막대기 자른 후 갯수 세기)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Iron_Stick.cpp)|
 다리를 지나는 트럭<br>(무게제한이 있는 다리에서 모든 트럭이 건너는 시간 구하기)|[C++]()
-주식가격 <br> (초 단위로 기록된 주식 가격이 떨어지지 않은 기간 측정하기)|[[C++](CodingTest/Stack&&Queue/stockPrices.cpp)|[Java](CodingTest/Stack&&Queue/stockPrices.java) 
+주식가격 <br> (초 단위로 기록된 주식 가격이 떨어지지 않은 기간 측정하기)|[C++](CodingTest/Stack&&Queue/stockPrices.cpp)|[Java](CodingTest/Stack&&Queue/stockPrices.java) 
 
 ### 힙
 Baekjoon Number| Code |
