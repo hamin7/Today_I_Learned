@@ -1,7 +1,7 @@
 # Today_I_Learned
 
 ## Linux
-[chmod란?](./Linux/chmod.mdwn)
+[chmod란?](./Linux/chmodKor.md)
 
 ## 코딩 테스트 준비
 
