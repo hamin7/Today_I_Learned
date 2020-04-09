@@ -107,3 +107,6 @@ octal|binary|file mode
 5|101|r-x
 6|110|rw-
 7|111|rwx
+
+# Example of Chmod use
+![chmod](images/chmod.png)

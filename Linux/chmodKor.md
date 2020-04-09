@@ -109,6 +109,7 @@ g+w, o-x|그룹 소유자에게 쓰기 권한 추가, 기타 사용자의 쓰기
 7|111|rwx
 
 ### chmod 사용 예시
-{% asset_img chmod.png %}
 
-<!--https://eunguru.tistory.com/93 참고-->
+![chmod](images/chmod.png)
+
+https://eunguru.tistory.com/93 참고
