@@ -78,7 +78,7 @@ Options|Description
         </tbody>
 </table>
 
-### 사용 예시
+### Example of Use
 Notation|Meaning
 -|-
 u+x|Add Execute Permission to Owner
