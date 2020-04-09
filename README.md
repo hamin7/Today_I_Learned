@@ -1,5 +1,8 @@
 # Today_I_Learned
 
+## Linux
+[chmod란?](./Linux/chmod.mdwn)
+
 ## 코딩 테스트 준비
 
 이름|용도|설명
