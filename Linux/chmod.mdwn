@@ -1,0 +1,109 @@
+# About Chmod
+
+In UNIX and UNIX-like operating systems, chmod is a command and system call used to change the access rights of file system objects (files and directories). 
+It is also used to change the special mode flag. Requests are filtered by umask. The name is short for Change Mode.
+
+Change access (chmod)
+- chmod command : Used to change access (file mode) to an existing file or directory
+- Changes to file mode can only be made by file owner or super user
+- File mode is specified as symbol (character) or octal.
+
+## Key Options
+
+Options|Description
+-|-
+-R|Change the permissions of subdirectories and files (Save same permissions to directories and files)
+
+### express access with symbols (character)
+- Character notation is divided into three parts: the user to change (the target), the command to perform (the operation), and the permission to set (access authority).
+- Advantages of setting only one target property without touching another target's property
+- Multiple assignments are separated using commas (,)
+
+<table>
+       <thead>
+           <tr>
+               <th>Sortation</th>
+               <th>Reference</th>
+               <th>Description</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td rowspan=5>User <br> (Target) </td>
+               <td>u</td>
+               <td>The abbreviation for the user, which means the owner of a file or directory.</td>
+           </tr>
+           <tr>
+               <td>g</td>
+               <td>Group owner</td>
+           </tr>
+           <tr>
+               <td>o</td>
+               <td>abbreviation for others, other users</td>
+           </tr>
+           <tr>
+               <td>a</td>
+               <td>the abbreviation of all, u, g, o</td>
+           </tr>
+           <tr>
+               <td></td>
+               <td>Assume all if no characters are used</td>
+           </tr>
+           <tr>
+               <td rowspan=3>Commands to Perform<br> (operation) </td>
+               <td>+</td>
+               <td>add</td>
+           </tr>
+           <tr>
+               <td>-</td>
+               <td>delete</td>
+           </tr>
+           <tr>
+               <td>=</td>
+               <td>Specified, existing property values disappear</td>
+           </tr>
+           <tr>
+               <td rowspan=3>Permission to set<br> (access authority) </td>
+               <td>r</td>
+               <td>read</td>
+           </tr>
+           <tr>
+               <td>w</td>
+               <td>write</td>
+           </tr>
+           <tr>
+               <td>x</td>
+               <td>execute</td>
+           </tr>
+        </tbody>
+</table>
+
+### 사용 예시
+Notation|Meaning
+-|-
+u+x|Add Execute Permission to Owner
+u-x|Remove owner's execution rights
++x|Add execution rights to all users (owner, group, other users)
+o-rw|Remove read and write permissions for other users
+go=rw|Read to group, other users. Specify write permissions, removed if you previously had execute permissions
+u+x,go=rw|Add execution permissions to owners and assign read and write permissions to groups, other users
+a=rw|Assign read and write permissions to all users
+g-w|Remove write permissions from group owner
+g+w, o-x|Add write permissions to group owners, remove write permissions from other users
+
+### Expose access in octets
+- Use octal notation to set access to the desired file
+- File mode can be set for owners, group owners, and other users with three octets.
+- r(Read, 4), w(Write, 2), x(Run, 1)
+- binary and binary file modes
+
+octal|binary|file mode
+-|-|-
+0|000|---
+1|001|--x
+2|010|-w-
+3|011|-wx
+4|100|r--
+5|101|r-x
+6|110|rw-
+7|111|rwx
