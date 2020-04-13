@@ -1,5 +1,7 @@
 # About Chmod
 
+## Department of Information System 2017029134 Hamin Lee.
+
 In UNIX and UNIX-like operating systems, chmod is a command and system call used to change the access rights of file system objects (files and directories). 
 It is also used to change the special mode flag. Requests are filtered by umask. The name is short for Change Mode.
 
