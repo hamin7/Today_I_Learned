@@ -122,3 +122,7 @@ palindrome| | [C++](CodingTest/Naver/Palindrome.cpp)
 concatnatedNaming| | [C++](CodingTest/Naver/concatnatedNaming.cpp)
 countSetBit| | [C++](CodingTest/Naver/countSetBit.cpp)
 
+## SW Expert Academy
+Number| Description | Key Point | Code
+-|-|-
+2058| 자릿수 더하기 | string | [C++](CodingTest/String/swExpert_2058.cpp)
