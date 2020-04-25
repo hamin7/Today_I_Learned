@@ -125,5 +125,5 @@ countSetBit| | [C++](CodingTest/Naver/countSetBit.cpp)
 ## SW Expert Academy
 Number| Description | Key Point | Code
 -|-|-|-
-2058| 자릿수 더하기 | string | [C++](CodingTest/String/swExpert_2058.cpp)
-2072| 홀수만 더하기 | etc | [C++](CodingTest/etc/SWEA_2072.cpp)
+2058| 자릿수 더하기 | string | [C++](CodingTest/String/SWEA_2058.cpp)
+2072| 홀수만 더하기 | Map | [C++](CodingTest/Map/SWEA_2072.cpp) [Python](CodingTest/Map/SWEA_2072(0).py)
