@@ -126,3 +126,4 @@ countSetBit| | [C++](CodingTest/Naver/countSetBit.cpp)
 Number| Description | Key Point | Code
 -|-|-|-
 2058| 자릿수 더하기 | string | [C++](CodingTest/String/swExpert_2058.cpp)
+2072| 홀수만 더하기 | etc | [C++](CodingTest/etc/SWEA_2072.cpp)
