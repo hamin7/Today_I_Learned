@@ -7,8 +7,11 @@ screenLock = Semaphore(value=1)
 def connScan(tgtHost, tgtPort):
     try:
         connSkt = socket(AF_INET, SOCK_STREAM)
+        
         connSkt.connect((tgtHost, tgtPort))
-        connSkt.send('ViolentPython\r\n')
+        # connect 까진 됨
+        connSkt.send('Hi Hanyang\r\n')
+        # send부터 안됨.
         results = connSkt.recv(100)
         screenLock.acquire()
         print('[+] %d/tcp open' % tgtPort)
