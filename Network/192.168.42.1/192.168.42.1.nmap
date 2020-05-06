@@ -1,0 +1,2 @@
+# Nmap 7.80 scan initiated Mon May  4 22:55:35 2020 as: nmap -T4 -O -A -oA 192.168.42.1 192.168.42.1
+# Nmap done at Mon May  4 22:55:38 2020 -- 1 IP address (0 hosts up) scanned in 2.85 seconds

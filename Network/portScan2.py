@@ -10,9 +10,9 @@ def connScan(tgtHost, tgtPort):
         
         connSkt.connect((tgtHost, tgtPort))
         # connect 까진 됨
-        connSkt.send('Hi Hanyang\r\n')
+        #connSkt.send('Hi Hanyang\r\n')
         # send부터 안됨.
-        results = connSkt.recv(100)
+        #results = connSkt.recv(100)
         screenLock.acquire()
         print('[+] %d/tcp open' % tgtPort)
         print('[+]' + str(results))

@@ -6,6 +6,9 @@
 ## 컴퓨터 네트워크
 [bypass](./Network/bypassInternetSensorshipKor.md)
 
+## 정보보호
+[ip와 port 스캔하기](./Network/portScan.md)
+
 ## 코딩 테스트 준비
 
 이름|용도|설명

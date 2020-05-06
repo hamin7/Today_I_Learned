@@ -2,8 +2,9 @@ import nmap
 import optparse
 
 def nmapScan(tgtHost, tgtPort):
-    nmScan = nmap.PortScanner()
-    nmScan.scan(tgtHost, tgtPort)
+    nmScan = nmap.PortScanner(nmap_search_path=())
+    # nmScan.scan(tgtHost, tgtPort)
+    nmScan.scan(hosts='166.104.177.0/24', arguments='-n -sP')
     state = nmScan[tgtHost]['tcp'][int(tgtPort)]['state']
     print("[*] " + tgtHost + " tcp/"+tgtPort + " "+state)
 
