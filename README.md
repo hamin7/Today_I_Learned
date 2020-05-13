@@ -2,12 +2,18 @@
 
 ## Linux
 [chmod란?](./Linux/chmodKor.md)
+<br>
+
 [사용자 추가하기](./Linux/addUser.md)
+<br>
+
 [Home directory에서 사용자 보기](./Linux/lookTheUserIntoHomeDir.md)
+<br>
+
 [SSH key에 대하여](./Linux/AboutSSH_key.md)
 
 ## 컴퓨터 네트워크
-[bypass](./Network/bypassInternetSensorshipKor.md)
+[bypass internet sensorship](./Network/bypassInternetSensorshipKor.md)
 
 ## 정보보호
 [ip와 port 스캔하기](./Network/portScan.md)
