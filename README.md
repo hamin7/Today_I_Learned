@@ -18,6 +18,9 @@
 ## 정보보호
 [ip와 port 스캔하기](./Network/portScan.md)
 
+## 컴퓨터 구조
+[Arithmetic Logic Unit](./ComputerArchitecture/Logisim.md)
+
 ## 코딩 테스트 준비
 
 이름|용도|설명
