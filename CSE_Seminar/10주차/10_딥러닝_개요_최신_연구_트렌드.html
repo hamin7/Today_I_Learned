@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>10_딥러닝_개요_최신_연구_트렌드.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="%EB%94%A5%EB%9F%AC%EB%8B%9D-%EA%B0%9C%EC%9A%94%EC%99%80-%EC%B5%9C%EC%8B%A0-%EC%97%B0%EA%B5%AC-%ED%8A%B8%EB%A0%8C%EB%93%9C-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EB%84%A4%EC%9D%B4%EB%B2%84-%ED%81%B4%EB%A1%9C%EB%B0%94-ai">딥러닝 개요와 최신 연구 트렌드 그리고 네이버 클로바 AI</h1>
+<h2 id="%ED%95%98%EC%A0%95%EC%9A%B0-%ED%8C%80%EC%9E%A5%EB%8B%98">하정우 팀장님</h2>
+<p><img src="./images/2.png" alt="2"></p>
+<ul>
+<li>앨런 튜링</li>
+</ul>
+<p><img src="./images/5.png" alt="5"></p>
+<h2 id="%ED%98%84%EC%9E%AC%EC%9D%98-ai">현재의 AI</h2>
+<ul>
+<li>GauGAN (Nvidia)</li>
+<li>AlphaGo (2016) -&gt; AlphaFold (2018) -&gt; AlphaStar (2019)</li>
+</ul>
+<p><img src="./images/9.png" alt="9"></p>
+<h2 id="%ED%8D%BC%EC%85%89%ED%8A%B8%EB%A1%A0">퍼셉트론</h2>
+<ul>
+<li>여러가지 인풋들이 주어지고 vias라는 텀이 주어짐</li>
+<li>가중치 주어짐</li>
+<li>스텝 펑션 통과해서 특정값보다 크면 1 작으면 0 출력</li>
+</ul>
+<p><img src="./images/10.png" alt="10"></p>
+<ul>
+<li>퍼셉트론의 문제는 xor 계산 불가</li>
+<li>+와 - 구별 불가 (비선형 분리 불가)</li>
+</ul>
+<p><img src="./images/11.png" alt="11"></p>
+<ul>
+<li>그것을 해결하는 방법이 멀티 레이어 뉴럴 네트워크</li>
+<li>기존의 비선형 분리가 안되었던 문제를 해결</li>
+</ul>
+<p><img src="./images/12.png" alt="12"></p>
+<ul>
+<li>오브젝트 펑션과 코스트 펑션</li>
+</ul>
+<p><img src="./images/13.png" alt="13"></p>
+<ul>
+<li>수식 유도 외우기..</li>
+<li>Backpropagation : Loss function을 줄이는 방향으로 생각…weight를 조금 바꿨을 때, Loss function이 얼마나 많이 줄게 만들것인가?</li>
+</ul>
+<p><img src="./images/14.png" alt="14"></p>
+<ul>
+<li>Gradient Descent : weight가 아랫 방향으로 가는것</li>
+<li>optimum 두 개 있음.</li>
+</ul>
+<p><img src="./images/15.png" alt="15"></p>
+<ul>
+<li>Gradient Descent가 처음 위치 잘못 잡으면 불리해지는 점 개선하기 위해 만든 것이 Stochastic Gradient Descent</li>
+</ul>
+<p><img src="./images/16.png" alt="16"></p>
+<ul>
+<li>보통 이미지 백본을 학습시킬 때에는 SGD 사용</li>
+<li>GAN이나 Segmentation이나 Detection에는 Adam 많이 사용</li>
+<li>SGD가 파라미터 잡는 것이 민감하고 쉽지 않기 때문.</li>
+</ul>
+<p><img src="./images/17.png" alt="17"></p>
+<ul>
+<li>의미를 가진 개체가 산술 연산 가능</li>
+</ul>
+<p><img src="./images/18.png" alt="18"></p>
+<ul>
+<li>CNN은 주로 이미지 인식 시</li>
+</ul>
+<p><img src="./images/20.png" alt="20"></p>
+<ul>
+<li>RNN : 시퀀스 데이터를 어떻게 잘 학습할 것인가.</li>
+</ul>
+<p><img src="./images/22.png" alt="22"></p>
+<ul>
+<li>파랑 - 인코더, 빨강 - 디코더</li>
+<li>층을 늘림</li>
+<li>성능 증가</li>
+</ul>
+<p><img src="./images/23.png" alt="23"></p>
+<ul>
+<li>Self-attention : RNN을 모두 대체중인 이 모델은 position encoding 을 함.</li>
+<li>long dependency 모델링에 용이</li>
+<li>자연어 처리 &quot;attention is all you need&quot;</li>
+</ul>
+<p><img src="./images/24.png" alt="24"></p>
+<ul>
+<li>Variational Autoencoder : encoder 와 decoder 사이에 변화를 넣음. 훨씬 더 안정적임.</li>
+</ul>
+<p><img src="./images/25.png" alt="25"></p>
+<ul>
+<li>GAN : latent vector와 noise를 넣어서 image를 만들어도 원래 이미지와 discriminator가 구별을 못하도록 학습시키자</li>
+</ul>
+<p><img src="./images/31.png" alt="31"></p>
+<ul>
+<li>최근 트렌드 : 큰 모델을 데이터를 엄청 많이 넣어서 엄청 성능이 좋은 모델을 만든 다음 여기저기 사용</li>
+</ul>
+<p><img src="./images/36.png" alt="36"></p>
+<ul>
+<li>Self-supervised : label이 없어도 데이터 안에서 학습을 하는 방법</li>
+<li>supervised constrstive : label 정보를 positive pair, nagative pair 만들 때 사용</li>
+</ul>
+<p><img src="./images/38.png" alt="38"></p>
+<ul>
+<li>심심이류의 인공지능</li>
+<li>모델 엄청 크고 데이터 많을수록 좋음!</li>
+</ul>
+<p><img src="./images/39.png" alt="39"></p>
+<ul>
+<li>모델링을 해주는 머신러닝 알고리즘</li>
+</ul>
+<p><img src="./images/41.png" alt="41"></p>
+<ul>
+<li>AutoML 을 시용적 관점에서 가장 실용적으로 쓸 수 있는 부분!</li>
+</ul>
+<p><img src="./images/43.png" alt="43"></p>
+<ul>
+<li>이미지 백본 트레이닝에서 regularizer를 잘 활용하는것이 중요</li>
+</ul>
+<p><img src="./images/50.png" alt="50"></p>
+<ul>
+<li>OCR 이용한 Clova 램프 -&gt; 앵간하네</li>
+</ul>
+<p><img src="./images/51.png" alt="51"></p>
+<ul>
+<li>reXNet : 이미지 인식 백본</li>
+</ul>
+<p><img src="./images/52.png" alt="52"></p>
+<ul>
+<li>starGAN : 이미지 소스 하나 추가해주면 그것과 비슷하게 스타일링 해주는 것</li>
+</ul>
+<p><img src="./images/53.png" alt="53"></p>
+<ul>
+<li>
+<p>데이터 증강 기법</p>
+</li>
+<li>
+<p>기존에는 classification류 밖에 없었음</p>
+</li>
+<li>
+<p>clova 더빙</p>
+</li>
+<li>
+<p>clova speech</p>
+</li>
+<li>
+<p>LaRva</p>
+</li>
+<li>
+<p>AI_Call</p>
+</li>
+<li>
+<p>ClovaCall</p>
+</li>
+</ul>
+
+</body>
+</html>
