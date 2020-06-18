@@ -22,3 +22,4 @@ ggplot(data = data1, aes(x=timestamp, y=count)) +
   ggtitle("Anomalies (Alpha = 0.02, direction=both)") +
   xlab("Timestamp") + ylab("Abnormal Events Count") +
   theme(plot.title = element_text(hjust = 0.5))
+
