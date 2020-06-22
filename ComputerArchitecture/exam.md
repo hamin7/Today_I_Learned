@@ -154,5 +154,7 @@ int f(int a, int b){
 }
 ~~~
 ~~~asm
-
+skip
 ~~~
+
+(g)
