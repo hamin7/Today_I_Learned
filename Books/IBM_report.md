@@ -1,10 +1,12 @@
-##  main title, specific subtitle
-## reason to choose the corporation
-## profile, philosophy
-## entrepreneurshop about CEO of the global corporation
-## financial statement
-## product
-## detail contents for a chosen strategy of several strategies for marketing, production, R&D, M&A, CSR, etc
+- [x] main title, specific subtitle
+- [ ] reason to choose the corporation
+- [ ] profile, philosophy
+- [ ] entrepreneurshop about CEO of the global corporation
+- [ ] financial statement
+- [ ] product
+- [ ] detail contents for a chosen strategy of several strategies for marketing, production, R&D, M&A, CSR, etc
+
+---------------------------------------------------
 
 # Why IBM invests in artificial intelligence technology that doesn't make money?
 
