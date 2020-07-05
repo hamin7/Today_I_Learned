@@ -54,6 +54,10 @@ IBM이 한창 잘 나가던 1981년 입사한 지니 로메티는 2012년 입사
 
 2017년 IBM CSR Report CEO 메세지에서 지니 로메티는 'AI를 비롯한 IBM의 최신 기술들에 대해 여러 우려들이 있음을 알고 있으며, IBM은 이런 우려들에 대해 '인간존중'이라는 IBM의 전통과 원칙을 반드시 지킬 것이고, 여러 국가 정부 및 많은 기업들과 함께 새로운 기술들을 이용하여 인류의 진보와 세계 번영에 기여할 것'이라고 말합니다.
 
+2.1.3 "블록체인"으로 해결하는 아동노동문제
+
+블록에 데이터를 담아 체인 형태로 연결, 수많은 컴퓨터에 동시에 이를 복제해 저장하는
+
 ## References
 IBM : 비즈니스 솔루션이 사회의 솔루션도 될 수 있을까?
 http://blog.daum.net/mryoopm/2596334
@@ -62,3 +66,5 @@ http://blog.daum.net/mryoopm/2596334
 borealis - 2018년 CSR의 지형을 변화시키는 영향력 있는 10명의 여성 CEO
 https://www.boreal-is.com/blog/women-changing-corporate-social-responsibility/
 
+IBM 2018 CSR
+https://www.ibm.org/responsibility/cr/pdfs/IBM-2018-CRR.pdf
