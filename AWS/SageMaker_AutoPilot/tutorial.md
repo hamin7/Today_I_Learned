@@ -1,17 +1,5 @@
 # SageMaker AutoPilot
 
-## 0. 참고자료
-
-AWS re:Invent 2019 - AI/ML recap - Part2: Amazon SageMaker
-
-https://medium.com/@julsimon/aws-re-invent-2019-ai-ml-recap-part-2-amazon-sagemaker-fee83f05a1bc
-
-
-
-https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-dg.pdf#whatis
-
-
-
 ## 1. 샘플데이터 가져오기
 아래 Julien Simon의 GitLab에 있는 Sample 데이터를 사용
 SageMaker Studio에 clone하면 됨.
@@ -121,7 +109,7 @@ trial component에 들어가면 trial component list가 나오는데 그중 가�
 
 각 trial들의 cross validation을 알 수 있습니다.
 
-## Deploy 하기
+## 7. Deploy 하기
 
 ![deploy](../SageMaker_AutoPilot/images/deploy.png)
 
@@ -136,3 +124,63 @@ deploy 해주면
 위와 같은 에러가 뜹니다.
 
 저는 S3가 구축되지 않았기 때문이죠.
+
+제대로 구축하고 기다려 주면
+
+![endpoint](../SageMaker_AutoPilot/images/endpoint.png)
+
+이렇게 inService가 됩니다.
+
+![setting](../SageMaker_AutoPilot/images/setting.png)
+
+이렇게 setting들도 볼 수 있습니다.
+
+notebook으로 돌아가서 
+
+![notebook](../SageMaker_AutoPilot/images/notebook.png)
+
+![notebook2](../SageMaker_AutoPilot/images/notebook2.png)
+
+![notebook3](../SageMaker_AutoPilot/images/notebook3.png)
+
+## 8. 참고자료
+
+AWS re:Invent 2019 - AI/ML recap - Part2: Amazon SageMaker (튜토리얼)
+
+https://medium.com/@julsimon/aws-re-invent-2019-ai-ml-recap-part-2-amazon-sagemaker-fee83f05a1bc
+
+Documentation
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-dg.pdf#whatis
+
+Amazon SageMaker Autopilot – Automatically Create High-Quality Machine Learning Models With Full Control And Visibility
+
+https://aws.amazon.com/ko/blogs/aws/amazon-sagemaker-autopilot-fully-managed-automatic-machine-learning/
+
+Amazon SageMaker Studio: The First Fully Integrated Development Environment For Machine Learning
+
+https://aws.amazon.com/ko/blogs/aws/amazon-sagemaker-studio-the-first-fully-integrated-development-environment-for-machine-learning/
+
+Dataset.ipynb (예시 코드)
+
+https://gitlab.com/juliensimon/amazon-studio-demos/blob/master/dataset.ipynb
+
+Julien Gitlab (예시)
+
+https://gitlab.com/juliensimon/amazon-studio-demos/blob/master/dataset.ipynb
+
+내가 한 분석 링크 (로그인 안하면 접근 불가?)
+
+https://d-gjg6mytpl2a2.studio.us-east-1.sagemaker.aws/jupyter/default/lab/workspaces/auto-E
+
+SageMaker 개발자 리소스
+
+https://aws.amazon.com/ko/sagemaker/developer-resources/
+
+한글 참조 자료
+
+https://docs.aws.amazon.com/sagemaker/index.html
+
+영어 Documentation
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
