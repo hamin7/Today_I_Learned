@@ -112,23 +112,23 @@
     </tr>
     <tr>
         <td rowspan=4>프로그래밍 언어 활용</td>
-        <td><a href=".md">기본 문법 활용하기</a></td>
+        <td><a href="ProgrammingLangAppli/basicGrammar.md">기본 문법 활용하기</a></td>
     </tr>
     <tr>
-        <td><a href=".md">언어 특성 활용하기</a></td>
+        <td><a href="ProgrammingLangAppli/languageFeature.md">언어 특성 활용하기</a></td>
     </tr>
     <tr>
-        <td><a href=".md">프로그래밍 예제 및 알고리즘</a></td>
+        <td><a href="ProgrammingLangAppli/exampleAndAlgo.md">프로그래밍 예제 및 알고리즘</a></td>
     </tr>
     <tr>
         <td>종합</td>
     </tr>
     <tr>
         <td rowspan=5>응용 SW 기초 기술 활용</td>
-        <td><a href=".md">운영체제의 특징</a></td>
+        <td><a href="SWAppli/operatingSystem.md">운영체제의 특징</a></td>
     </tr>
     <tr>
-        <td><a href=".md">데이터베이스 기초 활용하기</a></td>
+        <td><a href="SWAppli/database.md">데이터베이스 기초 활용하기</a></td>
     </tr>
     <tr>
         <td><a href=".md">네트워크 기초 활용하기</a></td>
@@ -145,7 +145,7 @@
     </tr>
     <tr>
         <td><a href=".md">제품 소프트웨어 메뉴얼 작성</a></td>
-    </tr>
+    </tr>  
     <tr>
         <td><a href=".md">제품 소프트웨어 버전 등록</a></td>
     </tr>
