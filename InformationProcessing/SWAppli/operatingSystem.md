@@ -131,7 +131,7 @@
 ( 1 ) SRT(Shortest Remaining Time First)
 ( 2 ) 다단계 큐(Multi Level Queue)
 
-## 14. 비선점혀 스케줄링(Preemptive Scheduling)의 알고리즘 중 SJF(Shortest Job First)란?
+## 14. 비선점형 스케줄링(Preemptive Scheduling)의 알고리즘 중 SJF(Shortest Job First)란?
 
 - SJF는 프로세스가 도착하는 시점에 따라 그 당시 가장 적은 서비스 시간을 갖는 프로세스가 종료 시까지 자원을 점유하는 알고리즘이다.
 
