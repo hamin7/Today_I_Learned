@@ -81,3 +81,7 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/sms-getting-started-step1.html
 
 - 들어가보면 작업 중인 사진들이 보입니다.
 - 시간이 좀 걸리니 기다려야 합니다.
+
+![labeling9](../images/labeling9.png)
+
+- 굉장히 오래걸리는군요..4시간 정도 경과했습니다.
