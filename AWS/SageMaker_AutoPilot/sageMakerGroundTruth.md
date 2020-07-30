@@ -44,5 +44,40 @@
 - 이렇게 S3 버킷을 생성했습니다.
 - 그리고 샘플 dataset은 제 마음대로 넣어봤습니다.
 - S3 버킷에 파일을 넣고 manifest를 생성해주어야 합니다.
+- manifest 만들기는 다음을 참고합니다
+
+https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/sms-data-input.html#sms-console-create-manifest-file
+
+https://docs.aws.amazon.com/sagemaker/latest/dg/sms-getting-started-step1.html
+
+- manifest는 샘플들을 리스팅하는 json 파일인데 docs와 다르게 manifest 없이도 할 수 있도록 되어있습니다.
 
 그리고 다시 labeling으로 돌아가
+
+![labeling3](../images/labeling3.png)
+
+- 이런식으로 세팅을 해 줍니다
+
+![labeling4](../images/labeling4.png)
+
+- dataset이 이미지들 이므로 task category는 image, task selection은 semantic segmentation으로 해보겠습니다.
+
+다음으로 넘어가서
+
+![labeling5](../images/labeling5.png)
+
+- private으로 세팅해 줍니다.
+
+![labeling6](../images/labeling6.png)
+
+- 이런식으로 예시가 나옵니다
+- 구분해야할 물체를 최대한 구체적으로 명시해줍니다.
+
+![labeling7](../images/labeling7.png)
+
+- 생성 버튼을 눌러주면 다음과 같이 labeling job이 생성 됩니다.
+
+![labeling8](../images/labeling8.png)
+
+- 들어가보면 작업 중인 사진들이 보입니다.
+- 시간이 좀 걸리니 기다려야 합니다.
