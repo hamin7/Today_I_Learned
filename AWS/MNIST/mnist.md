@@ -37,3 +37,4 @@ launch를 하였으나 에러가 뜹니다.
 ![error](../MNIST/images/error.png)
 
 이러한 에러가 뜨네요...
+

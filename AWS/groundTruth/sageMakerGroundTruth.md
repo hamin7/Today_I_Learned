@@ -84,4 +84,74 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/sms-getting-started-step1.html
 
 ![labeling9](../groundTruth/images/labeling9.png)
 
-- 굉장히 오래걸리는군요..4시간 정도 경과했습니다.
+- 결과물을 보려면 console로 들어가야 합니다.
+
+![workerConsole](../groundTruth/images/workerConsole.png)
+
+- 오른쪽의 레이블 지정 포털 로그인 URL로 들어가면 됩니다.
+
+![workerConsole1](../groundTruth/images/workerConsole1.png)
+
+- 들어가면 다음과 같은 화면이 나옵니다.
+- start working을 들어가면
+
+![workerConsole2](../groundTruth/images/workerConsole2.png)
+
+- 다음과 같은 화면이 나옵니다.
+
+![workerConsole3](../groundTruth/images/workerConsole3.png)
+
+- 이런식으로 지정해줍니다
+- 그리고 submit을 해줍니다.
+
+![autoSegment0](../groundTruth/images/autoSegment0.png)
+
+- 이번엔 auto segment 기능을 이용해보겠습니다.
+
+![autoSegment1](../groundTruth/images/autoSegment1.png)
+
+- Labels에서 해당되는것을 클릭후 최하단, 최상단, 좌우 끝 네 지점을 지정해주면 auto segmenting이 실행됩니다.
+
+![autoSegment2](../groundTruth/images/autoSegment2.png)
+
+- 이런식으로 잘 지정이 됩니다.
+
+![autoSegment3](../groundTruth/images/autoSegment3.png)
+
+- 다른 차들도 해줍니다.
+
+![autoSegment4](../groundTruth/images/autoSegment4.png)
+
+- 다른 요소들도 해줍니다.
+
+![autoSegment5](../groundTruth/images/autoSegment5.png)
+
+- 다 해줍니다.
+
+![autoSegmnet6](../groundTruth/images/autoSegmnet6.png)
+
+- 모두 마무리하면 이런 화면으로 넘어갑니다.
+
+![cloudWatch](../groundTruth/images/cloudWatch.png)
+
+- cloud watch에 들어가면 실행한 log를 볼 수 있습니다.
+
+![output](../groundTruth/images/output.png)
+
+- S3의 output에 들어가면 결과물이 들어있습니다.
+
+![output1](../groundTruth/images/output1.png)
+
+- 결과물들은 이곳에 있습니다.
+
+![output2](../groundTruth/images/output2.png)
+
+- 이런식으로 있습니다.
+
+![output3](../groundTruth/images/output3.png)
+
+- 이곳에 가면 output의 경로를 볼 수 있습니다.
+
+![output4](../groundTruth/images/output4.png)
+
+- 이런식으로 잘 labeling이 되어있습니다.
