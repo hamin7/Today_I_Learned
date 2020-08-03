@@ -98,3 +98,18 @@ aws는 데이터를 record IO protobuf format으로 변환하는 것을 권장�
 
 - ml.c4.8xlarge를 이용합니다.
 
+![kmeanTrain](../MNIST/images/kmeanTrain.png)
+
+그러면 이제 kmean 알고리즘을 이용하여 training을 해보겠습니다.
+
+![errorCode](../MNIST/images/errorCode.png)
+
+이러한 에러가 납니다.
+
+![errorCode](../MNIST/images/errorCodeDetail.png)
+
+IAM 중 AmazonSageMaker-ExecutionRole-20200803T225629에 CreateTrainingJob을 수행할 수 있는 권한이 없다고 합니다.
+
+![IAMpolicy](../MNIST/images/IAMpolicy.png)
+
+그래서 해당 IAM role에 AmazonSageMakerFullAccess policy를 연결해주었습니다.

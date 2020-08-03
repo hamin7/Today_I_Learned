@@ -51,6 +51,7 @@ https://docs.aws.amazon.com/ko_kr/sagemaker/latest/dg/sms-data-input.html#sms-co
 https://docs.aws.amazon.com/sagemaker/latest/dg/sms-getting-started-step1.html
 
 - manifest는 샘플들을 리스팅하는 json 파일인데 docs와 다르게 manifest 없이도 할 수 있도록 되어있습니다.
+- 하지만 저는 manifest를 직접 만들어 해보았습니다.
 
 그리고 다시 labeling으로 돌아가
 
@@ -155,3 +156,49 @@ https://docs.aws.amazon.com/sagemaker/latest/dg/sms-getting-started-step1.html
 ![output4](../groundTruth/images/output4.png)
 
 - 이런식으로 잘 labeling이 되어있습니다.
+
+결과물을 보면
+
+![pic00](../groundTruth/images/pic00.png)
+
+이 사진의 경우
+
+![pic0out1](../groundTruth/images/pic0out1.png)
+이런식으로 라벨이 붙어있습니다.
+
+# 이미지 분류 (다중 레이블)
+
+![multiLabel](../groundTruth/images/multiLabel.png)
+
+- 이번엔 이미지 분류 다중 레이블로 해보겠습니다
+
+위에 했던 방식과 똑같이 해주면
+
+![multiLabel0](../groundTruth/images/multiLable0.png)
+
+이렇게 워크 포털이 나옵니다
+들어가서
+
+![multiLabel1](../groundTruth/images/multiLabel1.png)
+
+지정해 주면 됩니다
+
+![multiLabel2](../groundTruth/images/multiLabel2.png)
+
+계속 지정해 주면 됩니다
+
+![multiLabelFinish](../groundTruth/images/multiLabelFinish.png)
+
+작업이 끝났습니다
+
+결과물을 보면
+
+![pic0](../groundTruth/groundTruthDataset/pic5.jpg)
+
+이 사진의 경우
+
+![pic0](../groundTruth/images/pic0out.png)
+
+이런식으로 사람, 자동차, 버스, 나무, 신호등의 label이 붙습니다.
+
+이러한 라벨들을 다른곳에 활용할 수 있을 것입니다.
