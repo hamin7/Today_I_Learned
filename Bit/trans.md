@@ -1,4 +1,4 @@
-# 거래량
+# Bithumb - Bitcoin 2018 거래량 
 
 # Bithumb 2018
 
@@ -30,3 +30,24 @@ https://www.coingecko.com/ko/%EC%BD%94%EC%9D%B8/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9
 
 https://www.coingecko.com/ko/%EC%BD%94%EC%9D%B8/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8
 
+## 그래프
+
+![bithumbVolume-profit](../Bit/bithumbVolume-profit.png)
+
+- 파랑색 : Bithumb 거래소 bitcoin 거래량(KRW)
+- 초록색 : 수익(KRW)
+
+![trans-profit](../Bit/trans-profit.png)
+
+- 파랑색 : 수익(KRW)
+- 초록색 : 교수님 거래량(KRW) / Bithumb 거래소 bitcoin 거래량(KRW)
+
+![volume-profit](../Bit/volume-profit.png)
+
+- 파랑색 : 수익(KRW)
+- 초록색 : 교수님 거래량(KRW)
+
+![volume-trans](../Bit/volume-trans.png)
+
+- 파랑색 : 수익(KRW)
+- 초록색 : 교수님 거래량(KRW) / Bithumb 거래소 bitcoin 거래량(KRW)
