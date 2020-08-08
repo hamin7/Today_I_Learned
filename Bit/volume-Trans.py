@@ -12,8 +12,8 @@ ax2 = ax1.twinx()
 
 # plot with properties
 
-line1 = ax1.plot(np.arange(len(x)), y1, color='b', linestyle='--', marker='o', label='Profit')
-line2 = ax2.plot(np.arange(len(x)), y2, color='g', linestyle='--', marker='^', label='Trans Percentage')
+line1 = ax1.plot(np.arange(len(x)), y1, color='b', linestyle='--', marker='o', label='Bithumb Exchange Volume')
+line2 = ax2.plot(np.arange(len(x)), y2, color='g', linestyle='--', marker='^', label='Transaction Percentage')
 # line3 = ax2.plot(np.arange(len(x)), y3, color='r', linestyle='--', marker='s', label=title[3])
 
 # plot without x sorting

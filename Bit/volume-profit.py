@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 x = ['Feb','Mar','Apr','May','Jun','Jul']
 y1 = [76615774359,121327294696,91245444410,73256553726,25829874334,23244686413]
-y2 = [20057445,3562946,23967448,11999306,4513842,494149]
+y2 = [20057445,8951034,23967448,11999306,4513842,494149]
 # y3 = data_set['data3']
 
 fig, ax1 = plt.subplots()
@@ -12,8 +12,8 @@ ax2 = ax1.twinx()
 
 # plot with properties
 
-line1 = ax1.plot(np.arange(len(x)), y1, color='b', linestyle='--', marker='o', label='Profit')
-line2 = ax2.plot(np.arange(len(x)), y2, color='g', linestyle='--', marker='^', label='Trans Volume')
+line1 = ax1.plot(np.arange(len(x)), y1, color='b', linestyle='--', marker='o', label='Transaction Volume')
+line2 = ax2.plot(np.arange(len(x)), y2, color='g', linestyle='--', marker='^', label='Profit')
 # line3 = ax2.plot(np.arange(len(x)), y3, color='r', linestyle='--', marker='s', label=title[3])
 
 # plot without x sorting
