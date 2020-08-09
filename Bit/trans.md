@@ -2,7 +2,7 @@
 
 - 종가 or 평균가?
 - bithumb-btc 3월 amount만 더하기
-- upbit-btc 7월
+- 그래프 마저 그리기
 
 # Bithumb - Bitcoin 2018 거래량 
 
