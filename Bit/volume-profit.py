@@ -36,6 +36,6 @@ plt.grid(True)
 # fig.grid(False)
 
 fig.tight_layout()
-fig.savefig('volume-profit.png', dpi=1000)
-fig.savefig('volume-profit.eps', format='eps', dpi=1000)
+fig.savefig('Bithumb-BTC2018-volume-profit.png', dpi=1000)
+fig.savefig('Bithumb-BTC2018-volume-profit.eps', format='eps', dpi=1000)
 plt.show()

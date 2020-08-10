@@ -38,22 +38,22 @@ https://www.coingecko.com/ko/%EC%BD%94%EC%9D%B8/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9
 
 ## 그래프
 
-![bithumbVolume-profit](../Bit/bithumbVolume-profit.png)
+![Bithumb-BTC2018-bithumbVolume-profit](../Bit/bithumbVolume-profit.png)
 
 - 파랑색 : Bithumb 거래소 bitcoin 거래량(KRW)
 - 초록색 : 수익(KRW)
 
-![trans-profit](../Bit/trans-profit.png)
+![Bithumb-BTC2018-trans-profit](../Bit/trans-profit.png)
 
 - 파랑색 : 수익(KRW)
 - 초록색 : 교수님 거래량(KRW) / Bithumb 거래소 bitcoin 거래량(KRW)
 
-![volume-profit](../Bit/volume-profit.png)
+![Bithumb-BTC2018-volume-profit](../Bit/volume-profit.png)
 
 - 초록색 : 수익(KRW)
 - 파랑색 : 교수님 거래량(KRW)
 
-![volume-trans](../Bit/volume-trans.png)
+![Bithumb-BTC2018-volume-trans](../Bit/volume-trans.png)
 
 - 파랑색 : Bithumb 거래소 거래량(KRW)
 - 초록색 : 교수님 거래량(KRW) / Bithumb 거래소 bitcoin 거래량(KRW)
@@ -83,6 +83,28 @@ Total trans(KRW)|"2,069,650,043,279"|"1,149,059,584,200"|"740,095,260,000"|"528,
 Young/Total|1.280066866|1.860222927|1.781144581|1.124880324|0.400038761|0.348157678,
 
 - Total trans는 Total trans(BTC) *  월별 평균 가격으로 계산.
+
+## 그래프
+
+![Upbit-BTC2018-UpbitVolume-profit](../Bit/Upbit-BTC2018-UppitVolume-profit.png)
+
+- 파랑색 : Upbit 거래소 bitcoin 거래량(KRW)
+- 초록색 : 수익(KRW)
+
+![Upbit-BTC2018-trans-profit](../Bit/)
+
+- 파랑색 : 수익(KRW)
+- 초록색 : 교수님 거래량(KRW) / Upbit 거래소 bitcoin 거래량(KRW)
+
+![Upbit-BTC2018-volume-profit](../Bit/)
+
+- 초록색 : 수익(KRW)
+- 파랑색 : 교수님 거래량(KRW)
+
+![Upbit-BTC2018-volume-trans](../Bit/)
+
+- 파랑색 : Upbit 거래소 거래량(KRW)
+- 초록색 : 교수님 거래량(KRW) / Bithumb 거래소 bitcoin 거래량(KRW)
 
 # Upbit Bitcoin 2019 거래량
 
