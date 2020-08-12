@@ -2,7 +2,7 @@
 
 - 종가 or 평균가?
 - bithumb-btc 3월 amount만 더하기
-- 그래프 마저 그리기
+- 그래프 y축 단위 예쁘게 or 통일
 
 # Bithumb - Bitcoin 2018 거래량 
 
@@ -58,7 +58,7 @@ https://www.coingecko.com/ko/%EC%BD%94%EC%9D%B8/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9
 - 파랑색 : Bithumb 거래소 거래량(KRW)
 - 초록색 : 교수님 거래량(KRW) / Bithumb 거래소 bitcoin 거래량(KRW)
 
-# Upbit Bitcoin 2018 거래량
+# Upbit Bitcoin 2018s 거래량
 
 출처 : 
 https://kr.investing.com/crypto/bitcoin/btc-krw-historical-data?cid=1064952
@@ -80,7 +80,7 @@ Total trans(BTC)|"258,193"|"150,040"|"99,150"|"72,193"|"202,720"|"256,130"
 Average(KRW)|"8,015,903"|"7,658,355"|"7,464,400"|"7,323,839"|"6,154,700"|"4,148,516"
 Closing price(KRW)|"8,807,000"|"7,872,000"|"7,393,000"|"7,162,000"|"4,567,000"|"4,201,000"
 Total trans(KRW)|"2,069,650,043,279"|"1,149,059,584,200"|"740,095,260,000"|"528,729,908,927"|"1,247,680,784,000"|"1,062,559,403,080"
-Young/Total|1.280066866|1.860222927|1.781144581|1.124880324|0.400038761|0.348157678,
+Young/Total|1.280066866|1.860222927|1.781144581|1.124880324|0.400038761|0.348157678
 
 - Total trans는 Total trans(BTC) *  월별 평균 가격으로 계산.
 
@@ -91,17 +91,17 @@ Young/Total|1.280066866|1.860222927|1.781144581|1.124880324|0.400038761|0.348157
 - 파랑색 : Upbit 거래소 bitcoin 거래량(KRW)
 - 초록색 : 수익(KRW)
 
-![Upbit-BTC2018-trans-profit](../Bit/)
+![Upbit-BTC2018-trans-profit](../Bit/Upbit-BTC2018-profit-percent.png)
 
 - 파랑색 : 수익(KRW)
 - 초록색 : 교수님 거래량(KRW) / Upbit 거래소 bitcoin 거래량(KRW)
 
-![Upbit-BTC2018-volume-profit](../Bit/)
+![Upbit-BTC2018-volume-profit](../Bit/Upbit-2018-BTC-profit-accountTrans.png)
 
 - 초록색 : 수익(KRW)
 - 파랑색 : 교수님 거래량(KRW)
 
-![Upbit-BTC2018-volume-trans](../Bit/)
+![Upbit-BTC2018-volume-trans](../Bit/Upbit-2018-BTC-UpbitVolume-accountTrans.png)
 
 - 파랑색 : Upbit 거래소 거래량(KRW)
 - 초록색 : 교수님 거래량(KRW) / Bithumb 거래소 bitcoin 거래량(KRW)
@@ -132,6 +132,29 @@ Total trans(KRW)|"607,511,668,110"|"3,152,608,439,400"|"4,490,686,502,000"|"6,22
 Young/Total|0.795355188|1.041418229|1.466439247|0.815025034
 
 - Total trans는 Total trans(BTC) *  월별 평균 가격으로 계산.
+
+
+## 그래프
+
+![Upbit-BTC2019-UpbitVolume-profit](../Bit/Upbit-2019-BTC-UppitVolume-profit.png)
+
+- 파랑색 : Upbit 거래소 bitcoin 거래량(KRW)
+- 초록색 : 수익(KRW)
+
+![Upbit-BTC2019-trans-profit](../Bit/Upbit-BTC2019-profit-percent.png)
+
+- 파랑색 : 수익(KRW)
+- 초록색 : 교수님 거래량(KRW) / Upbit 거래소 bitcoin 거래량(KRW)
+
+![Upbit-BTC2019-volume-profit](../Bit/Upbit-2019-BTC-profit-accountTrans.png)
+
+- 초록색 : 수익(KRW)
+- 파랑색 : 교수님 거래량(KRW)
+
+![Upbit-BTC2019-volume-trans](../Bit/Upbit-2019-BTC-UpbitVolume-accountTrans.png)
+
+- 파랑색 : Upbit 거래소 거래량(KRW)
+- 초록색 : 교수님 거래량(KRW) / Bithumb 거래소 bitcoin 거래량(KRW)
 
 # Bithumb EOS 2018 거래량
 
