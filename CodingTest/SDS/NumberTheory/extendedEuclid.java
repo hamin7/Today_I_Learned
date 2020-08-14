@@ -1,6 +1,6 @@
 // 확장 유클리드 호제법 (표와 동일하게)
 
-public class Main {
+public class extendedEuclid {
     public static void main(String[] args) {
         System.out.println("Egcd");
         //System.out.println(gcd(36, 132));
