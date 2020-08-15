@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.collections import PolyCollection
 
+# dd
 data = [    (dt.datetime(2018, 1, 1, 0, 0), dt.datetime(2018, 1, 18, 23, 59), 'sleep'),
             (dt.datetime(2018, 1, 19, 0, 0), dt.datetime(2018, 1, 25, 23, 59), 'trade'),
             (dt.datetime(2018, 1, 26, 0, 0), dt.datetime(2018, 1, 30, 23, 59), 'sleep'),
