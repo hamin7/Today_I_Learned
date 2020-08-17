@@ -16,4 +16,5 @@ df = pd.DataFrame([
 
 fig = px.timeline(df, x_start="Start", x_end="Finish", y="Task", color="Color")
 fig.update_yaxes(autorange="reversed")
+# fig.savefig('Bithumb-BTC2018-timeline.png', dpi=1000)
 fig.show()
