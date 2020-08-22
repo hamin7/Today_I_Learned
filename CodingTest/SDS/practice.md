@@ -31,6 +31,8 @@
 [J - 집배원 한상덕](https://www.acmicpc.net/problem/2842)|
 [K - 최솟값 찾기](https://www.acmicpc.net/problem/11003)|
 
+<br>
+
 # 자료구조
 
 연습 문제|Code
@@ -54,6 +56,8 @@
 [Q - 소수의 곱](https://www.acmicpc.net/problem/2014)|
 [R - 강수량](https://www.acmicpc.net/problem/2094)|
 
+<br>
+
 # 정수론
 
 연습 문제|Code
@@ -73,6 +77,8 @@
 [M - 수학은 너무 쉬워](https://www.acmicpc.net/problem/2904)|
 [N - 소수를 분수로](https://www.acmicpc.net/problem/5376)|
 
+<br>
+
 # 조합론
 
 연습 문제|Code
@@ -90,6 +96,8 @@
 [K - N과 M (9)](https://www.acmicpc.net/problem/15663)|
 [L - N과 M](https://www.acmicpc.net/problem/15664)|
 
+<br>
+
 # 그래프 1
 
 연습 문제|Code
@@ -103,6 +111,8 @@
 [G - 교수님은 기다리지 않는다](https://www.acmicpc.net/problem/3830)|
 [H - 도로 네트워크](https://www.acmicpc.net/problem/3176)|
 [I - 두 번째로 작은 스패닝 트리](https://www.acmicpc.net/problem/1626)|
+
+<br>
 
 # 그래프 2
 
@@ -128,6 +138,8 @@
 [E - 가장 큰 정사각형](https://www.acmicpc.net/problem/1915)|
 [F - 행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)|
 [G - 가장 긴 증가하는 부분 수열 5](https://www.acmicpc.net/problem/14003)|
+
+<br>
 
 # 동적 계획법 2
 
