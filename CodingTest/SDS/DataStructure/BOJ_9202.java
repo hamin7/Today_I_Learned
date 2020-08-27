@@ -26,7 +26,6 @@ public class Main {
 
 	private static class Trie {
 		Node n;
-
 		Trie() {
 			n = new Node('\0');
 		}
