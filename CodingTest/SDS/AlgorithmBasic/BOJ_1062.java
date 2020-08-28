@@ -18,7 +18,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BOJ_1062 {
+public class Main {
 	
 	static int N, K;
 	static String[] words;
@@ -43,7 +43,8 @@ public class BOJ_1062 {
 		}
 		
 		System.out.println(Arrays.toString(words));
-		
+		// 알파벳을 어떻게 숫자로 바꿀것인가가 문제.
 	}
 
 }
+
