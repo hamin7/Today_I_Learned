@@ -15,6 +15,8 @@
 [K - 단어 수학](https://www.acmicpc.net/problem/1339)|
 [L - 치킨 배달](https://www.acmicpc.net/problem/15686)|
 
+<br>
+
 # 시간 복잡도
 
 연습 문제|Code
@@ -127,6 +129,8 @@
 [G - 거의 최단 경로](https://www.acmicpc.net/problem/5719)|
 [H - K번째 최단경로 찾기](https://www.acmicpc.net/problem/1854)|
 
+<br>
+
 # 동적 계획법 1
 
 연습 문제|Code
@@ -158,6 +162,8 @@
 [K - 공장](https://www.acmicpc.net/problem/7578)|
 [L - 케이크](https://www.acmicpc.net/problem/10714)|
 
+<br>
+
 # 2020.08.22. Pro test
 
 - 친구들(20,000명 이하)의 집 간 거리가 주어짐 (그래프)
@@ -165,17 +171,22 @@
 - 거리 총합이 최소인 곳의 수와 최소값을 출력
 - 메모리 제한 256MB, 스택 제한
 
+<br>
+
 # 복습
 
 - [x] 10-1 알고리즘 기초 DFS, BFS, 가르침(1062번)
-- [ ] 10-2 
-- [ ] 10-3
+- [x] 10-2 가르침 (1062번)
+- [ ] 10-3 가르침 (1062번), sample은 정답으로 나오는데, 채점 시 틀렸다고 나오는 경우 -> 경곗값 테스트해보기 (0이라던가 최댓값)
 - [ ] 10-4
 - [ ] 10-5
 - [ ] 10-6
 - [ ] 10-7
 - [ ] 10-8
 
+<br>
+
 # 참고사항
 
 - Eclipse에서 syso 타이핑 후 ctrl+enter를 누르면 System.out.println()이 자동완성 된다.
+- sample은 정답으로 나오는데, 채점 시 틀렸다고 나오는 경우 -> 경곗값 테스트해보기 (0이라던가 최댓값)
