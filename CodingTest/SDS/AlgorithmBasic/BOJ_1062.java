@@ -43,7 +43,7 @@ public class Main {
 		selectedCount = 5;
 		
 		if (K < 5 ) {
-			// K의 갯수가 5보다 작다 같으면 읽을 수 있는 단어가 없음.
+			// K의 갯수가 5보다 작다면 읽을 수 있는 단어가 없음.
 			max = 0;
 		} else {
 			max = countWords();

@@ -4,13 +4,13 @@
 -|-
 [A - 고스택](https://www.acmicpc.net/problem/3425)|
 [B - 탈출](https://www.acmicpc.net/problem/3055)|
-[C - 가르침](https://www.acmicpc.net/problem/1062)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1062.java)
+[C - 가르침](https://www.acmicpc.net/problem/1062)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1062.java) [C++](/CodingTest/SDS/AlgorithmBasic/BOJ_1062.cpp)
 [D - 후부 추천하기](https://www.acmicpc.net/problem/1713)|
 [E - 게임](https://www.acmicpc.net/problem/1103)|
 [F - 교환](https://www.acmicpc.net/problem/1039)|
 [G - 수 찾기](https://www.acmicpc.net/problem/1920)|
 [H - N-Queen](https://www.acmicpc.net/problem/9663)|
-[I - 암호 만들기](https://www.acmicpc.net/problem/1759)|
+[I - 암호 만들기](https://www.acmicpc.net/problem/1759)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.java)
 [J - 스도쿠](https://www.acmicpc.net/problem/2580)|
 [K - 단어 수학](https://www.acmicpc.net/problem/1339)|
 [L - 치킨 배달](https://www.acmicpc.net/problem/15686)|
@@ -177,8 +177,8 @@
 
 - [x] 10-1 알고리즘 기초 DFS, BFS, 가르침(1062번)
 - [x] 10-2 가르침 (1062번)
-- [ ] 10-3 가르침 (1062번), sample은 정답으로 나오는데, 채점 시 틀렸다고 나오는 경우 -> 경곗값 테스트해보기 (0이라던가 최댓값)
-- [ ] 10-4
+- [x] 10-3 가르침 (1062번), sample은 정답으로 나오는데, 채점 시 틀렸다고 나오는 경우 -> 경곗값 테스트해보기 (0이라던가 최댓값)
+- [ ] 10-4 암호만들기 (1759번)
 - [ ] 10-5
 - [ ] 10-6
 - [ ] 10-7
