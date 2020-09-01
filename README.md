@@ -133,6 +133,12 @@ Baekjoon Number| Code |
 -|-
 등굣길 <br> (웅덩이를 피해 집에서 학교까지 갈 수 있는 최단경로의 수 구하기)| [C++](CodingTest/DynamicProgramming/roadToSchool.cpp)
 
+### SELECT 
+Programmers Number | SQL
+-|-
+모든 레코드 조회하기| [Sql](/CodingTest/SQL/viewAllRecord.sql)
+
+
 
 ## 네이버 코테
 
