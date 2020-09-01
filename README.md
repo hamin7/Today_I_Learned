@@ -32,24 +32,11 @@ Queue_pair|  |[Queue_pair]()
 Sort| 정렬을 해 놓은 후 문제를 해결하기 쉽다면 사용 |[Sort](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테스트/Sort/Sort.md)
 Map|   |[Map](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테스트/Hash/Map.md)
 
-
-## 알고리즘 스터디
-
-[스터디 링크](https://github.com/suhyun1/algorithm-study)
-
-### 백준
-[Baekjoon](/CodingTest/Baekjoon.md)
-
-## 프로그래머스
-[Programmers](/CodingTest/programmers.md)
-
-## 삼성 SDS 하계 알고리즘 특강
-[Samsung SDS](/CodingTest/SDS/practice.md)
-
-## 네이버 코테
-[Naver Coding Test](/CodingTest/naverCodingTest.md)
-
-
-## SW Expert Academy
-[SW Expert Academy](/CodingTest/SW_Expert_Academy.md)
-
+분류|링크
+-|-
+알고리즘 스터디|[스터디 링크](https://github.com/suhyun1/algorithm-study)
+Baekjoon|[Baekjoon](/CodingTest/Baekjoon.md)
+Programmers|[Programmers](/CodingTest/programmers.md)
+Samsung SDS 하계 알고리즘 특강|[Samsung SDS](/CodingTest/SDS/practice.md)
+Naver|[Naver Coding Test](/CodingTest/naverCodingTest.md)
+SW Expert Academy|[SW Expert Academy](/CodingTest/SW_Expert_Academy.md)
