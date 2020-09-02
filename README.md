@@ -36,7 +36,7 @@ Map|   |[Map](https://github.com/hamin7/Today_I_Learned/blob/master/코딩%20테
 -|-
 알고리즘 스터디|[스터디 링크](https://github.com/suhyun1/algorithm-study)
 Baekjoon|[Baekjoon](/CodingTest/Baekjoon.md)
-Programmers|[Programmers](/CodingTest/programmers.md)
+Programmers|[Programmers](/CodingTest/Programmers/programmers.md)
 Samsung SDS 하계 알고리즘 특강|[Samsung SDS](/CodingTest/SDS/practice.md)
 Naver|[Naver Coding Test](/CodingTest/naverCodingTest.md)
 SW Expert Academy|[SW Expert Academy](/CodingTest/SW_Expert_Academy.md)

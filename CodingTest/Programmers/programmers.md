@@ -61,9 +61,9 @@ Programmers Number| Code |
 ### SELECT 
 Programmers Number | SQL
 -|-
-모든 레코드 조회하기| [Sql](/CodingTest/SQL/viewAllRecord.sql)
+모든 레코드 조회하기| [Sql](/CodingTest/Programmers/SQL/SELECT/viewMax.sql)
 
 ### SUM, MAX, MIN
 Programmers Number | SQL
 -|-
-최댓값 구하기| [Sql]
+최댓값 구하기| [Sql](/CodingTest/Programmers/SQL/SUM,MAX,MIN/viewAllRecord.sql)
