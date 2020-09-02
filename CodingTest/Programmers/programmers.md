@@ -43,7 +43,7 @@ Programmers Number| C++ | Java
 -|-|-
 모의고사 <br>(세 수포자의 찍는 방식이 각 존재할 때, 가장 많이 맞힌 사람) |[C++](CodingTest/../BruteForce/studentWhoGiveUpMath.cpp)|
 숫자야구 <br> (2명이 서로가 생각한 숫자를 맞추는 게임) |[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Exhaustive_search/Number_Baseball.md)|
-카펫<br>||
+카펫<br>|[C++](CodingTest/../BruteForce/carpet.cpp)
 
 ### 깊이/너비 우선 탐색 (DFS/BFS)
 Programmers Number| C++
