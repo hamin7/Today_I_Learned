@@ -9,7 +9,7 @@ Programmers Number| C++ | Java
 Programmers Number| C++ | Java
 -|-|-
 타워 <br> (낮은탑에서 높은탑으로 신호 송신하기)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Tower.cpp)
-기능개발 <br/> (기능 별 개발 속도에 따른 시점 별 배포 가능 가짓 수)| [C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/FunctionDevelopment.cpp)
+기능개발 <br/> (기능 별 개발 속도에 따른 시점 별 배포 가능 가짓 수)| [C++](CodingTest/Programmers/../../Queue_Stack/functionDevelopment.cpp)
 프린터<br/>(중요도 순으로 인쇄할 때, 내가 요청한 문서의 순서) |[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Printer.cpp)
 쇠막대기<br>(레이저로 쇠막대기 자른 후 갯수 세기)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Iron_Stick.cpp)|
 다리를 지나는 트럭<br>(무게제한이 있는 다리에서 모든 트럭이 건너는 시간 구하기)|[C++]()
@@ -67,3 +67,18 @@ Programmers Number | SQL
 Programmers Number | SQL
 -|-
 최댓값 구하기| [Sql](/CodingTest/Programmers/SQL/SUM,MAX,MIN/viewAllRecord.sql)
+
+### GROUP BY
+Programmers Number | SQL
+-|-
+고양이와 개는 몇 마리 있을까| [Sql](/CodingTest/Programmers/SQL/GROUP_BY/howManyCatsAndDogs.sql)
+
+### ISNULL
+Programmers Number | SQL
+-|-
+
+
+### JOIN
+Programmers Number | SQL
+-|-
+없어진 기록 찾기 | [SQL](/CodingTest/Programmers/SQL/JOIN/recordThatGone.sql)
