@@ -1,7 +1,7 @@
 ### 해시
 Programmers Number| C++ | Java
 -|-|-
-완주하지 못한 선수 <br>(마라톤 참여한 사람 배열과 완주한 사람 배열에서 완주하지 못한 1명 구하기)|[C++ (Map)](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Hash/Poor_Runner.cpp) [C++ (Sort)](Hash/runnerWhoDidNotCompleted.cpp)
+✅완주하지 못한 선수 <br>(마라톤 참여한 사람 배열과 완주한 사람 배열에서 완주하지 못한 1명 구하기)|[C++ (Map)](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Hash/Poor_Runner.cpp) [C++ (Sort)](Hash/runnerWhoDidNotCompleted.cpp)
 전화번호부 <br> (앞 번호가 같은것이 있는지 찾아내기) | [C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Hash/Phone_book.cpp)
 위장 <br> (매일 다른 옷을 조합하여 입는 스파이의 패션 경우의 수 구하기)|[C++](CodingTest/Hash/camouflage.cpp)
 
@@ -9,7 +9,7 @@ Programmers Number| C++ | Java
 Programmers Number| C++ | Java
 -|-|-
 타워 <br> (낮은탑에서 높은탑으로 신호 송신하기)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Tower.cpp)
-기능개발 <br/> (기능 별 개발 속도에 따른 시점 별 배포 가능 가짓 수)| [C++](CodingTest/Programmers/../../Queue_Stack/functionDevelopment.cpp)
+✅기능개발 <br/> (기능 별 개발 속도에 따른 시점 별 배포 가능 가짓 수)| [C++](CodingTest/Programmers/../../Queue_Stack/functionDevelopment.cpp)
 프린터<br/>(중요도 순으로 인쇄할 때, 내가 요청한 문서의 순서) |[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Printer.cpp)
 쇠막대기<br>(레이저로 쇠막대기 자른 후 갯수 세기)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Iron_Stick.cpp)|
 다리를 지나는 트럭<br>(무게제한이 있는 다리에서 모든 트럭이 건너는 시간 구하기)|[C++]()
@@ -41,9 +41,9 @@ Programmers Number| C++ | Java
 ### 완전탐색
 Programmers Number| C++ | Java
 -|-|-
-모의고사 <br>(세 수포자의 찍는 방식이 각 존재할 때, 가장 많이 맞힌 사람) |[C++](CodingTest/../BruteForce/studentWhoGiveUpMath.cpp)|
+✅모의고사 <br>(세 수포자의 찍는 방식이 각 존재할 때, 가장 많이 맞힌 사람) |[C++](CodingTest/../BruteForce/studentWhoGiveUpMath.cpp)|
 숫자야구 <br> (2명이 서로가 생각한 숫자를 맞추는 게임) |[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Exhaustive_search/Number_Baseball.md)|
-카펫<br>|[C++](CodingTest/../BruteForce/carpet.cpp)
+✅카펫<br>|[C++](CodingTest/../BruteForce/carpet.cpp)
 
 ### 깊이/너비 우선 탐색 (DFS/BFS)
 Programmers Number| C++
@@ -61,17 +61,17 @@ Programmers Number| Code |
 ### SELECT 
 Programmers Number | SQL
 -|-
-모든 레코드 조회하기| [Sql](/CodingTest/Programmers/SQL/SELECT/viewMax.sql)
+✅모든 레코드 조회하기| [Sql](/CodingTest/Programmers/SQL/SELECT/viewMax.sql)
 
 ### SUM, MAX, MIN
 Programmers Number | SQL
 -|-
-최댓값 구하기| [Sql](/CodingTest/Programmers/SQL/SUM,MAX,MIN/viewAllRecord.sql)
+✅최댓값 구하기| [Sql](/CodingTest/Programmers/SQL/SUM,MAX,MIN/viewAllRecord.sql)
 
 ### GROUP BY
 Programmers Number | SQL
 -|-
-고양이와 개는 몇 마리 있을까| [Sql](/CodingTest/Programmers/SQL/GROUP_BY/howManyCatsAndDogs.sql)
+✅고양이와 개는 몇 마리 있을까| [Sql](/CodingTest/Programmers/SQL/GROUP_BY/howManyCatsAndDogs.sql)
 
 ### ISNULL
 Programmers Number | SQL
@@ -81,5 +81,5 @@ Programmers Number | SQL
 ### JOIN
 Programmers Number | SQL
 -|-
-없어진 기록 찾기 | [SQL](/CodingTest/Programmers/SQL/JOIN/recordThatGone.sql)
-있었는데요 없었습니다 | [SQL](/CodingTest/Programmers/SQL/JOIN/existButNotExist.sql)
+✅없어진 기록 찾기 | [SQL](/CodingTest/Programmers/SQL/JOIN/recordThatGone.sql)
+✅있었는데요 없었습니다 | [SQL](/CodingTest/Programmers/SQL/JOIN/existButNotExist.sql)
