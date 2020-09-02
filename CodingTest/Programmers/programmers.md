@@ -82,3 +82,4 @@ Programmers Number | SQL
 Programmers Number | SQL
 -|-
 없어진 기록 찾기 | [SQL](/CodingTest/Programmers/SQL/JOIN/recordThatGone.sql)
+있었는데요 없었습니다 | [SQL](/CodingTest/Programmers/SQL/JOIN/existButNotExist.sql)
