@@ -63,6 +63,7 @@ Programmers Number| Code |
 Programmers Number | SQL
 -|-
 ✅모든 레코드 조회하기| [Sql](/CodingTest/Programmers/SQL/SELECT/viewMax.sql)
+✅역순 정렬하기| [Sql](/CodingTest/Programmers/SQL/SELECT/allignDesc.sql)
 
 ### SUM, MAX, MIN
 Programmers Number | SQL
