@@ -69,12 +69,17 @@ Programmers Number | SQL
 Programmers Number | SQL
 -|-
 ✅최댓값 구하기| [Sql](/CodingTest/Programmers/SQL/SUM,MAX,MIN/viewAllRecord.sql)
+✅최솟값 구하기| [Sql](/CodingTest/Programmers/SQL/SUM,MAX,MIN/findMinOne.sql)
+✅동물의 수 구하기|[Sql](/CodingTest/Programmers/SQL/SUM,MAX,MIN/numberOfAnimal.sql)
+✅중복 제거하기|[Sql](/CodingTest/Programmers/SQL/SUM,MAX,MIN/removeDuplicatedThings/removeDuplicatedThings.sql)
 
 ### GROUP BY
 Programmers Number | SQL
 -|-
 ✅고양이와 개는 몇 마리 있을까| [Sql](/CodingTest/Programmers/SQL/GROUP_BY/howManyCatsAndDogs.sql)
 ✅동명 동물 수 찾기|[Sql](/CodingTest/Programmers/SQL/GROUP_BY/findAnimalThatHaveSameName.sql)
+✅입양 시각 구하기(1)|[Sql](/CodingTest/Programmers/SQL/GROUP_BY/findAdoptedDateTime.sql)
+✅입양 시각 구하기(2)|[Sql](/CodingTest/Programmers/SQL/GROUP_BY/findAdoptedDateTime(2).sql)
 
 ### ISNULL
 Programmers Number | SQL
