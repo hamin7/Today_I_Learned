@@ -74,6 +74,7 @@ Programmers Number | SQL
 Programmers Number | SQL
 -|-
 ✅고양이와 개는 몇 마리 있을까| [Sql](/CodingTest/Programmers/SQL/GROUP_BY/howManyCatsAndDogs.sql)
+✅동명 동물 수 찾기|[Sql](/CodingTest/Programmers/SQL/GROUP_BY/findAnimalThatHaveSameName.sql)
 
 ### ISNULL
 Programmers Number | SQL
