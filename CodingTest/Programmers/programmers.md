@@ -92,3 +92,5 @@ Programmers Number | SQL
 -|-
 ✅없어진 기록 찾기 | [SQL](/CodingTest/Programmers/SQL/JOIN/recordThatGone.sql)
 ✅있었는데요 없었습니다 | [SQL](/CodingTest/Programmers/SQL/JOIN/existButNotExist.sql)
+✅오랜 기간 보호한 동물 (1) | [SQL](/CodingTest/Programmers/SQL/JOIN/animalThatProtectedLong.sql)
+✅보호소에서 중성화 된 동물 | [SQL](/CodingTest/Programmers/SQL/JOIN/animalThatNeutralizedInShelter.sql)
