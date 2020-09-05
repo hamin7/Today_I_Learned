@@ -66,7 +66,9 @@ Programmers Number | SQL
 ✅역순 정렬하기| [Sql](/CodingTest/Programmers/SQL/SELECT/allignDesc.sql)
 ✅아픈 동물 찾기| [Sql](/CodingTest/Programmers/SQL/SELECT/findSickAnimal.sql)
 ✅어린 동물 찾기| [Sql](/CodingTest/Programmers/SQL/SELECT/findYoungAnimal.sql)
-✅동물의 아이디와 이름| [Sql](/CodingTest/Programmers/)
+✅동물의 아이디와 이름| [Sql](/CodingTest/Programmers/SQL/SELECT/animalIdAndName.sql)
+✅여러 기준으로 정렬하기| [SQL](/CodingTest/Programmers/SQL/SELECT/allignByManyStandard.sql)
+✅상위 n개 레코드| [SQL](/CodingTest/Programmers/SQL/SELECT/recordOnUpperN.sql)
 
 ### SUM, MAX, MIN
 Programmers Number | SQL
