@@ -18,7 +18,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BOJ_1759 {
+public class Main {
 	
 	static int L, C;
 	static char[] data;
@@ -45,6 +45,7 @@ public class BOJ_1759 {
 		// 호출은 보통 모든 시작점에 대해서 해줘야 함.
 		for (int i = 0; i < C; i++) {
 			if (data[i] == 'a' || data[i] == 'e' || data[i] == 'i' || data[i] == 'o' || data[i] == 'u') {
+//				data[i]는 char이므로 +""으로 string으로 만들어줌. 
 				dfs(1, 0, 1, i, data[i] + "");
 			} else {
 				dfs(1, 1, 0, i, data[i] + "");
@@ -72,6 +73,11 @@ public class BOJ_1759 {
 //				5. 		간다 - dfs(next)
 				if(data[i] == 'a' || data[i] == 'e' || data[i] == 'i' || data[i] == 'o' || data[i] == 'u') {
 					// 모음 갯수 1개 증가.
+//					string + 무언가 -> new를 해줌, 새로운 string 생성 -> 퍼포먼스 떨어짐.
+//					대안 -> List<character> 써도 됨. 마지막꺼 빼고 새로운거 붙이는 방식.
+//					대안2 -> stringBuilder -> 빼는것이 곤란, 쌓기만 할 때 좋음.
+//					현업에서는 전역 변수 쓰는 것 조심.
+//					stringBuffer도 stringBuilder와 비슷.
 					dfs(length + 1, con, vow + 1, i, pwd + data[i]);
 				} else {
 					// 자음 갯수 1개 증가.
@@ -82,3 +88,4 @@ public class BOJ_1759 {
 //		6. 체크아웃 - 생략가능.
 	}
 }
+
