@@ -10,7 +10,7 @@
 [F - 교환](https://www.acmicpc.net/problem/1039)|
 [G - 수 찾기](https://www.acmicpc.net/problem/1920)|
 [H - N-Queen](https://www.acmicpc.net/problem/9663)|
-[I - 암호 만들기](https://www.acmicpc.net/problem/1759)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.java) [C++](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.cpp)
+✅[I - 암호 만들기](https://www.acmicpc.net/problem/1759)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.java) [C++](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.cpp)
 [J - 스도쿠](https://www.acmicpc.net/problem/2580)|
 [K - 단어 수학](https://www.acmicpc.net/problem/1339)|
 [L - 치킨 배달](https://www.acmicpc.net/problem/15686)|
@@ -179,8 +179,8 @@
 - [x] 10-2 가르침 (1062번)
 - [x] 10-3 가르침 (1062번), sample은 정답으로 나오는데, 채점 시 틀렸다고 나오는 경우 -> 경곗값 테스트해보기 (0이라던가 최댓값)
 - [x] 10-4 암호만들기 (1759번) 문제풀이.
-- [ ] 10-5
-- [ ] 10-6
+- [x] 10-5 탈출 (3055번) Point 객체 만들기, 간단한 queue 사용법, BFS 이용한 풀이 전략.
+- [ ] 10-6 
 - [ ] 10-7
 - [ ] 10-8
 
