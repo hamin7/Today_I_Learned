@@ -3,7 +3,7 @@
 연습 문제|Code
 -|-
 [A - 고스택](https://www.acmicpc.net/problem/3425)|
-[B - 탈출](https://www.acmicpc.net/problem/3055)|
+[B - 탈출](https://www.acmicpc.net/problem/3055)|[Java](/CodingTest/BFS:DFS/BOJ_3055.java)
 ✅[C - 가르침](https://www.acmicpc.net/problem/1062)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1062.java) [C++](/CodingTest/SDS/AlgorithmBasic/BOJ_1062.cpp)
 [D - 후부 추천하기](https://www.acmicpc.net/problem/1713)|
 [E - 게임](https://www.acmicpc.net/problem/1103)|
