@@ -11,81 +11,164 @@ list는 뒤를 빼는 것이 편하지만 stringBuilder는 뒤를 빼는 것이 
 String + 연산이 말도 안되게 느리므로 stringBuilder가 비교적 빠르다.
 */
 
-package Day01.P1759;
+// BFS와 DFS의 차이는, DFS는 동시에 움직이는 것을 처리할 수 없음.
+// 물, 고슴도치 움직임 -> BFS 사용해야..
+
+package Day01.P3055;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 import java.util.Scanner;
 
-public class BOJ_1759 {
+public class Main {
 	
-	static int L, C;
-	static char[] data;
+//	조이스틱 만든다고 생각. 좌, 우, 위, 아래.
+	static int[] mx = {-1, 1, 0, 0};
+//	y축 조이스틱.
+	static int[] my = {0, 0, -1, 1};
+	
+	static int R, C;
+	static char[][] map;
+//	고슴도치가 간 곳을 dp에 저장할 것이다.
+//	boolean형이 아니라 int형이라 몇번째로 지나갔는지를 의미.
+	static int[][] dp;
+	
+	static Queue<Point> queue;
+	static boolean foundAnswer;
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		System.setIn(new FileInputStream("/Users/hamin/eclipse-workspace/SamsungSDS/src/Day01/P1759/input.txt"));
+		System.setIn(new FileInputStream("/Users/hamin/eclipse-workspace/SamsungSDS/src/Day01/P3055/input.txt"));
+		
 		Scanner sc = new Scanner(System.in);
 		
-		L = sc.nextInt();
+		R = sc.nextInt();
 		C = sc.nextInt();
 		
-//		System.out.println(L+ ", " + C);
+//		System.out.println(R + ", " + C);
 		
-		data = new char[C];
+		map = new char[R][C];
+		dp = new int[R][C];
+		queue = new LinkedList<>();
 		
-		for (int i = 0; i < C; i++) {
-			data[i] = sc.next().charAt(0);		// string에서 첫번째 char를 가져옴.
-		}
-		
-//		System.out.println(Arrays.toString(data));
-		Arrays.sort(data);
-//		System.out.println(Arrays.toString(data));
-		
-		// 호출은 보통 모든 시작점에 대해서 해줘야 함.
-		for (int i = 0; i < C; i++) {
-			if (data[i] == 'a' || data[i] == 'e' || data[i] == 'i' || data[i] == 'o' || data[i] == 'u') {
-//				data[i]는 char이므로 +""으로 string으로 만들어줌. 
-				dfs(1, 0, 1, i, data[i] + "");
-			} else {
-				dfs(1, 1, 0, i, data[i] + "");
-			}
-		}
-		
-//		가상의 시작점을 두고 dfs를 시작하는 방법!
-//		dfs(0, 0, 0, -1, "");
-	}
-	
-	// 파라미터를 잘 정의하면 체크인, 체크아웃 생략 가능.
-	// 조건 상 알파벳 순서대로기 때문에, 이전으로 돌아갈 필요가 없음. -> 체크인 안해도 됨.
-	static void dfs(int length, int con, int vow, int current, String pwd) {
-//		1. 체크인 - 생략 가능.
-//		2. 목적지인가? => if (length == L) => 자음, 모음 개수 확인 => 맞으면 저장.
-		if (length == L) {
-			if (con >= 2 && vow >= 1) {
-				// 답 발견. 출력 or 저장.
-				System.out.println(pwd);
-			}
-		} else {
-//			3. 갈 수 있는 곳을 순회 => for ( current + 1 - C - 1)
-			for (int i = current + 1; i < C; i++) {
-//				4. 	갈 수 있는가? - 생략가능.
-//				5. 		간다 - dfs(next)
-				if(data[i] == 'a' || data[i] == 'e' || data[i] == 'i' || data[i] == 'o' || data[i] == 'u') {
-					// 모음 갯수 1개 증가.
-//					string + 무언가 -> new를 해줌, 새로운 string 생성 -> 퍼포먼스 떨어짐.
-//					대안 -> List<character> 써도 됨. 마지막꺼 빼고 새로운거 붙이는 방식.
-//					대안2 -> stringBuilder -> 빼는것이 곤란, 쌓기만 할 때 좋음.
-//					현업에서는 전역 변수 쓰는 것 조심.
-//					stringBuffer도 stringBuilder와 비슷.
-					dfs(length + 1, con, vow + 1, i, pwd + data[i]);
-				} else {
-					// 자음 갯수 1개 증가.
-					dfs(length + 1, con + 1, vow, i, pwd + data[i]);
+		List<Point> waterList = new ArrayList<>();
+		for (int r = 0; r < R; r++) {
+			String line = sc.next();
+			for (int c = 0; c < C; c++) {
+				map[r][c] = line.charAt(c);
+//				시작점인가 봐야함.
+				if (map[r][c] == 'S') {
+//					시작점이면 queue에 넣어줘야.
+					queue.add(new Point(r, c, 'S'));
+				} else if (map[r][c] == '*') {
+					waterList.add(new Point(r, c, '*'));
 				}
 			}
 		}
-//		6. 체크아웃 - 생략가능.
+//		waterList가 뭉텅이로 들어감.
+		queue.addAll(waterList);
+		
+//		for (int r = 0; r < R; r++) {
+//			System.out.println(Arrays.toString(map[r]));
+//		}
+		
+//		System.out.println(queue);
+		
+		while(!queue.isEmpty()) {
+//			1. 큐애서 꺼내옴.
+			Point p = queue.poll();
+//			2. 목적지인가?		if (p == 'D')
+			if (p.type == 'D') {
+				// 목적지 도착.
+//				현재 자리까지 오는데 걸린 시간 출력.
+				System.out.println(dp[p.y][p.x]);
+				foundAnswer = true;
+				break;
+			}
+//			3. 갈 수 있는 곳을 순회.		for (좌, 우, 위, 아래)
+			for (int i = 0; i < 4; i++) {
+				int ty = p.y + my[i];
+				int tx = p.x + mx[i];
+//				4. 		갈 수 있는가? 		if( 맵을 벗어나지 않고, x가 아니고, * 아니고(현재 물이 아니고 다음턴에도 물이 아닌))
+//				지도에서 벗어나지 않는 것 체크.
+				if ( 0 <= ty && ty < R && 0 <= tx && tx < C) {
+//					벗어나지 않는 좌표인데 이게 .이냐 S냐에 *이냐에 따라 동작 달라짐.
+					if (p.type == '.' || p.type == 'S') {
+//						내가 간적이 없고, 안전한 자리면.
+						if (dp[ty][tx] == 0 && checkSafe(ty, tx)) {
+//							5. 			체크인.		dp[r][c] = time
+//							내가 현재까지 오게 된 자리 + 1.
+							dp[ty][tx] = dp[p.y][p.x]+ 1; 
+//							6. 			큐에 넣음.		queue.add(next)+
+							queue.add(new Point(ty, tx, map[ty][tx]));
+						} 
+					} else if (p.type == '*' && map[ty][tx] == '.') {
+//						6. 			큐에 넣음.		queue.add(next)
+						queue.add(new Point(ty, tx, '*'));
+						map[ty][tx] = '*';
+					}
+				}
+			}
+		}
+		
+		if (foundAnswer == false) {
+			System.out.println("KAKTUS");
+		}
+		
+//		Point p = new Point(0, 0, '*');
+//		System.out.println(p);
+		
+//		간단한 queue 사용법.
+//		queue.add(p);
+//		System.out.println(queue);
+//		peek은 한번 보는.
+//		System.out.println(queue.peek());
+//		System.out.println(queue);
+//		poll은 빼버리는.
+//		System.out.println(queue.poll());
+//		System.out.println(queue);
+	}
+	
+//	x가 아니고, * 아니고, *에 인접한 .도 아니 체크.
+	static boolean checkSafe(int y, int x) {
+		if (map[y][x] == 'D') {
+			return true;
+		} else if (map[y][x] == '.') {
+//			다음 점이 . 인데 물이있으면 return false, 그게 아니면 return true.
+			for (int i = 0; i < 4; i++) {
+				int ty = y + my[i];
+				int tx = x + mx[i];
+				if (0 <= ty && ty < R && 0 <= tx && tx < C && map[ty][tx] == '*') {
+//					벗어나지 않는데 물이 있으면 -> 못가는.
+					return false;
+				}
+			}
+			return true;
+		} else {
+			return false;
+		}
 	}
 }
 
+// 점이라는 클래스.
+class Point{
+	int y;
+	int x;
+	char type;
+	
+	public Point(int y, int x, char type) {
+		super();
+		this.y = y;
+		this.x = x;
+		this.type = type;
+	}
+	
+	@Override
+	public String toString() {
+		return "[y=" + y + ", x= " + x + ", type=" + type + "]";
+	}
+}
