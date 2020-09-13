@@ -1,7 +1,7 @@
 ### 해시
 Programmers Number| C++ | Java
 -|-|-
-✅완주하지 못한 선수 <br>(마라톤 참여한 사람 배열과 완주한 사람 배열에서 완주하지 못한 1명 구하기)|[C++ (Map)](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Hash/Poor_Runner.cpp) [C++ (Sort)](Hash/runnerWhoDidNotCompleted.cpp)
+✅완주하지 못한 선수 <br>(마라톤 참여한 사람 배열과 완주한 사람 배열에서 완주하지 못한 1명 구하기)|[C++ (Map)](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Hash/Poor_Runner.cpp) [C++ (Sort)](Hash/runnerWhoDidNotCompleted.cpp) |[Java](Hash/runnerWhoDidNotCompleted.java)
 전화번호부 <br> (앞 번호가 같은것이 있는지 찾아내기) | [C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Hash/Phone_book.cpp)
 위장 <br> (매일 다른 옷을 조합하여 입는 스파이의 패션 경우의 수 구하기)|[C++](CodingTest/Hash/camouflage.cpp)
 
@@ -41,7 +41,7 @@ Programmers Number| C++ | Java
 ### 완전탐색
 Programmers Number| C++ | Java
 -|-|-
-✅모의고사 <br>(세 수포자의 찍는 방식이 각 존재할 때, 가장 많이 맞힌 사람) |[C++](CodingTest/../BruteForce/studentWhoGiveUpMath.cpp)|
+✅모의고사 <br>(세 수포자의 찍는 방식이 각 존재할 때, 가장 많이 맞힌 사람) |[C++](CodingTest/../BruteForce/studentWhoGiveUpMath.cpp)|[Java](BruteForce/studentWhoGiveUpMath.java)
 숫자야구 <br> (2명이 서로가 생각한 숫자를 맞추는 게임) |[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Exhaustive_search/Number_Baseball.md)|
 ✅카펫<br>(노란색 타일과 갈색 칸의 수를 바탕으로 전체 카펫 크기 추측)|[C++](CodingTest/../BruteForce/carpet.cpp)
 ✅소수찾기<br>(주어진 수들로 만들 수 있는 소수의 갯수 찾기)|[C++](CodingTest/../BruteForce/findPrimeNumber.cpp)
