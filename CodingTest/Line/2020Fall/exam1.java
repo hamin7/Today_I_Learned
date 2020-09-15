@@ -44,7 +44,7 @@ class Solution {
                 
             } else if (order[i] == ballList.get(ballList.size() - 1)) {
                 // order 이번 순위 것이 ball의 맨 뒤에 있다면.
-                // ball[마지막]을 빼고 다시 ball[] 만들 것.
+                // ball[마지막]을 빼고 다시 ball[] 만들 것
                 ballList.remove(ballList.size()-1);      // 이번꺼 삭제
                 
                 // 이번 공을 list로
