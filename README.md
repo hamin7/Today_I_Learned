@@ -4,7 +4,7 @@
 [chmod란?](./Linux/chmodKor.md)
 <br>
 
-[사용자 추가하기](./Linux/addUser.md)
+[사용자 추가](./Linux/addUser.md)
 <br>
 
 [Home directory에서 사용자 보기](./Linux/lookTheUserIntoHomeDir.md)
