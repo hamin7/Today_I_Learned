@@ -6,8 +6,7 @@ public class Solution {
     public static int cnt = 0;
     public static boolean[] NUMBER = new boolean[10000000];
     public static int solution(String input){
-    	// StringBuilder를 통해 숫자를 만든다.
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();     // StringBuilder를 통해 숫자를 만든다.
         Arrays.fill(NUMBER, true);
         NUMBER[0] = NUMBER[1] = false;
 
