@@ -10,7 +10,7 @@
 [Home directory에서 사용자 보기](./Linux/lookTheUserIntoHomeDir.md)
 <br>
 
-[SSH key에 대하여](./Linux/AboutSSH_key.md)
+[SSH key](./Linux/AboutSSH_key.md)
 
 ## 컴퓨터 네트워크
 [bypass internet sensorship](./Network/bypassInternetSensorshipKor.md)
