@@ -29,3 +29,15 @@ Baekjoon Number| C++ | Java
 Baekjoon Number| C++ | Java
 -|-|-
 [1713 후보추천](https://www.acmicpc.net/problem/1713)||[Java](/CodingTest/Sort/BOJ_1713.java)
+
+### IO and Operation
+
+Baekjoon Number| C++ | Java
+-|-|-
+[2588 곱셈](https://www.acmicpc.net/problem/2588)||[Java](/CodingTest/Baekjoon/IO_and_Operation/P2588.java)
+
+### IF
+
+Baekjoon Number| C++ | Java
+-|-|-
+[1330 두 수 비교하기](https://www.acmicpc.net/problem/1330)||[Java](/CodingTest/Baekjoon/If/P1330.java)
