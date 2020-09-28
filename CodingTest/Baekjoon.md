@@ -44,3 +44,9 @@ Baekjoon Number| C++ | Java
 [2753 윤년](https://www.acmicpc.net/problem/2753)||[Java](/CodingTest/Baekjoon/If/P2753.java)
 [14681 윤년](https://www.acmicpc.net/problem/14681)||[Java](/CodingTest/Baekjoon/If/P14681.java)
 [2884 윤년](https://www.acmicpc.net/problem/2884)||[Java](/CodingTest/Baekjoon/If/P2884.java)
+
+## FOR
+
+Baekjoon Number| C++ | Java
+-|-|-
+[10950 A+B-3](https://www.acmicpc.net/problem/10950)||[Java](/CodingTest/Baekjoon/For/P10950.java)
