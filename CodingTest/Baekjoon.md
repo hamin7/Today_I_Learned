@@ -50,3 +50,18 @@ Baekjoon Number| C++ | Java
 Baekjoon Number| C++ | Java
 -|-|-
 [10950 A+B-3](https://www.acmicpc.net/problem/10950)||[Java](/CodingTest/Baekjoon/For/P10950.java)
+[15552 빠른 A+B](https://www.acmicpc.net/problem/15552)||[Java](/CodingTest/Baekjoon/For/P15552.java)
+[2741 N찍기](https://www.acmicpc.net/problem/2741)||[Java](/CodingTest/Baekjoon/For/P2741.java)
+[2742 기찍 N](https://www.acmicpc.net/problem/2742)||[Java](/CodingTest/Baekjoon/For/P2742.java)
+[11021 A+B - 7](https://www.acmicpc.net/problem/11021)||[Java](/CodingTest/Baekjoon/For/P11021.java)
+[11022 A+B - 8](https://www.acmicpc.net/problem/11022)||[Java](/CodingTest/Baekjoon/For/P11022.java)
+[2438 별찍기 - 1](https://www.acmicpc.net/problem/2438)||[Java](/CodingTest/Baekjoon/For/P2438.java)
+[10871 X보다 작은수](https://www.acmicpc.net/problem/10871)||[Java](/CodingTest/Baekjoon/For/P10871.java)
+
+## WHILE
+
+Baekjoon Number| C++ | Java
+-|-|-
+[10952 A+B-5](https://www.acmicpc.net/problem/10952)||[Java](/CodingTest/Baekjoon/While/P10952.java)
+[10951 A+B-4](https://www.acmicpc.net/problem/10951)||[Java](/CodingTest/Baekjoon/While/P10951.java)
+[1110 더하기 사이클](https://www.acmicpc.net/problem/1110)||[Java](/CodingTest/Baekjoon/While/P1110.java)
