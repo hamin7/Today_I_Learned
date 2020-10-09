@@ -1,8 +1,8 @@
-package For.P10950;
+// package For.P10950;
 
 import java.util.Scanner;
 
-public class Main {
+public class P10950 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

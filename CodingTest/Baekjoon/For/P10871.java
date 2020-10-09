@@ -1,8 +1,8 @@
-package For.P10871;
+// package For.P10871;
 
 import java.util.Scanner;
 
-public class Main {
+public class P10871 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

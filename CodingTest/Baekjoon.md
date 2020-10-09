@@ -65,3 +65,9 @@ Baekjoon Number| C++ | Java
 [10952 A+B-5](https://www.acmicpc.net/problem/10952)||[Java](/CodingTest/Baekjoon/While/P10952.java)
 [10951 A+B-4](https://www.acmicpc.net/problem/10951)||[Java](/CodingTest/Baekjoon/While/P10951.java)
 [1110 더하기 사이클](https://www.acmicpc.net/problem/1110)||[Java](/CodingTest/Baekjoon/While/P1110.java)
+
+## 삼성 SW 역량 테스트 기출 문제
+
+Baekjoon Number| C++ | Java
+-|-|-
+[13458 시험 감독](https://www.acmicpc.net/problem/13458)||[Java](/CodingTest/Baekjoon/SamsungElec/P13458_0.java)
