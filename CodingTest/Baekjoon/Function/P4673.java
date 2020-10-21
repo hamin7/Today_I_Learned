@@ -1,6 +1,6 @@
-package Function.P4673;
+// package Function.P4673;
 
-public class Main {
+public class P4673 {
 	
 	static boolean[] check = new boolean[100001];	// 1~100000
 

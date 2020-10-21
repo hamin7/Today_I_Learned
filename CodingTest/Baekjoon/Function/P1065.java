@@ -1,8 +1,8 @@
-package Function.P1065;
+// package Function.P1065;
 
 import java.util.Scanner;
 
-public class Main {
+public class P1065 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

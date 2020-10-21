@@ -66,13 +66,22 @@ Baekjoon Number| C++ | Java
 [10951 A+B-4](https://www.acmicpc.net/problem/10951)||[Java](/CodingTest/Baekjoon/While/P10951.java)
 [1110 더하기 사이클](https://www.acmicpc.net/problem/1110)||[Java](/CodingTest/Baekjoon/While/P1110.java)
 
+## ARRAY
+
+Baekjoon Number| C++ | Java
+-|-|-
+[10818 최소,최대](https://www.acmicpc.net/problem/10818)||[Java](/CodingTest/Baekjoon/Array/P10818.java)
+[2562 최댓값](https://www.acmicpc.net/problem/2562)||[Java](/CodingTest/Baekjoon/Array/P2562.java)
+[2577 숫자의 개수](https://www.acmicpc.net/problem/2577)||[Java](/CodingTest/Baekjoon/Array/P2577.java)
+[8958 OX퀴즈](https://www.acmicpc.net/problem/8958)||[Java](/CodingTest/Baekjoon/Array/P8958.java)
+
 ## FUNCTUION
 
 Baekjoon Number| C++ | Java
 -|-|-
+[15596 정수 N개의 합](https://www.acmicpc.net/problem/15596)||[Java](/CodingTest/Baekjoon/Function/P15596.java)
 [4673 셀프넘버](https://www.acmicpc.net/problem/4673)||[Java](/CodingTest/Baekjoon/Function/P4673.java)
 [1065 한수](https://www.acmicpc.net/problem/1065)||[Java](/CodingTest/Baekjoon/Function/P1065.java)
-
 
 ## 삼성 SW 역량 테스트 기출 문제
 
