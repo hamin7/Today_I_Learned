@@ -70,6 +70,7 @@ Baekjoon Number| C++ | Java
 
 Baekjoon Number| C++ | Java
 -|-|-
+[4673 셀프넘버](https://www.acmicpc.net/problem/4673)||[Java](/CodingTest/Baekjoon/Function/P4673.java)
 [1065 한수](https://www.acmicpc.net/problem/1065)||[Java](/CodingTest/Baekjoon/Function/P1065.java)
 
 
