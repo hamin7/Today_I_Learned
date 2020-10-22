@@ -75,6 +75,7 @@ Baekjoon Number| C++ | Java
 [2577 숫자의 개수](https://www.acmicpc.net/problem/2577)||[Java](/CodingTest/Baekjoon/Array/P2577.java)
 [3062 나머지](https://www.acmicpc.net/problem/3062)||[Java](/CodingTest/Baekjoon/Array/P3062.java)
 [1546 평균](https://www.acmicpc.net/problem/1546)||[Java](/CodingTest/Baekjoon/Array/P1546.java)
+[4344 평균은 넘겠지](https://www.acmicpc.net/problem/4344)||[Java](/CodingTest/Baekjoon/Array/P4344.java)
 [8958 OX퀴즈](https://www.acmicpc.net/problem/8958)||[Java](/CodingTest/Baekjoon/Array/P8958.java)
 
 ## FUNCTUION
