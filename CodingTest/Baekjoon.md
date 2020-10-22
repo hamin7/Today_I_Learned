@@ -73,6 +73,8 @@ Baekjoon Number| C++ | Java
 [10818 최소,최대](https://www.acmicpc.net/problem/10818)||[Java](/CodingTest/Baekjoon/Array/P10818.java)
 [2562 최댓값](https://www.acmicpc.net/problem/2562)||[Java](/CodingTest/Baekjoon/Array/P2562.java)
 [2577 숫자의 개수](https://www.acmicpc.net/problem/2577)||[Java](/CodingTest/Baekjoon/Array/P2577.java)
+[3062 나머지](https://www.acmicpc.net/problem/3062)||[Java](/CodingTest/Baekjoon/Array/P3062.java)
+[1546 평균](https://www.acmicpc.net/problem/1546)||[Java](/CodingTest/Baekjoon/Array/P1546.java)
 [8958 OX퀴즈](https://www.acmicpc.net/problem/8958)||[Java](/CodingTest/Baekjoon/Array/P8958.java)
 
 ## FUNCTUION
