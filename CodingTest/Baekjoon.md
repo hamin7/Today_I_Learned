@@ -86,6 +86,12 @@ Baekjoon Number| C++ | Java
 [4673 셀프넘버](https://www.acmicpc.net/problem/4673)||[Java](/CodingTest/Baekjoon/Function/P4673.java)
 [1065 한수](https://www.acmicpc.net/problem/1065)||[Java](/CodingTest/Baekjoon/Function/P1065.java)
 
+## Implementation
+
+Baekjoon Number| C++ | Java
+-|-|-
+[14718 빗물](https://www.acmicpc.net/problem/14719)||[Java](/CodingTest/Baekjoon/Implementation/P4719.java)
+
 ## 삼성 SW 역량 테스트 기출 문제
 
 Baekjoon Number| C++ | Java
