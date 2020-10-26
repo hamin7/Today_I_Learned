@@ -1,5 +1,8 @@
 # Today_I_Learned
 
+## 공부 내용은 블로그에
+[Hamin's Tech blog](https://hamin7.github.io/)
+
 ## Linux
 [chmod란?](./Linux/chmodKor.md)
 <br>
