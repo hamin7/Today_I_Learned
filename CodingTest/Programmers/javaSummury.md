@@ -16,3 +16,14 @@ Queue<Point> q = new LinkedList<>();
 q.add(new Point(x, y, 0, 1));
 Point p = q.poll();
 ~~~
+
+~~~java
+import java.util.StringTokenizer;
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+String s = br.readLine();
+StringTokenizer st = new StringTokenizer(s," ");
+n = Integer.parseInt(st.nextToken());
+m = Integer.parseInt(st.nextToken());
+v = Integer.parseInt(st.nextToken());
+~~~
