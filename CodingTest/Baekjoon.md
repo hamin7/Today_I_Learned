@@ -92,6 +92,12 @@ Baekjoon Number| C++ | Java
 -|-|-
 [14718 빗물](https://www.acmicpc.net/problem/14719)||[Java](/CodingTest/Baekjoon/Implementation/P4719.java)
 
+## BFS DFS
+
+Baekjoon Number| C++ | Java
+-|-|-
+[2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)||[Java](/CodingTest/Baekjoon/BFS:DFS/P2206.java)
+
 ## 삼성 SW 역량 테스트 기출 문제
 
 Baekjoon Number| C++ | Java
