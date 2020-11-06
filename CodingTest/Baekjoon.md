@@ -99,7 +99,7 @@ Baekjoon Number| C++ | Java
 [1260 DFS와 BFS](https://www.acmicpc.net/problem/1260)||[Java](/CodingTest/Baekjoon/BFS:DFS/P1260.java)
 [2606 바이러스](https://www.acmicpc.net/problem/2606)||[Java](/CodingTest/Baekjoon/BFS:DFS/P2606.java)
 [1012 유기농 배추](https://www.acmicpc.net/problem/1012)||[Java](/CodingTest/Baekjoon/BFS:DFS/P1012.java)
-[2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)||[Java](/CodingTest/Baekjoon/BFS:DFS/P2206.java)
+[⭐️ 2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)||[Java](/CodingTest/Baekjoon/BFS:DFS/P2206.java)
 
 ## 삼성 SW 역량 테스트 기출 문제
 
