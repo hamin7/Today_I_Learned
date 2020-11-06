@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
-class Solution {
+class travelPath {
     static boolean[] visited;
     static String aviation = "";
     ArrayList<String> candidateRoute = new ArrayList<>();
