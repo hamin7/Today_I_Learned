@@ -50,7 +50,7 @@ Programmers Number| C++ | Java
 Programmers Number| C++ | Java
 -|-|-
 타겟 넘버 <br> (사용할 수들이 담긴 배열을 이용하여 타겟 넘버를 만드는 가짓수 구하기)| [C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/BFS%20%26%26%20DFS/Target_Number.md)
-네트워크<br>(컴퓨터 개수와 연결에 대한 정보가 주어질 때, 네트워크 개수 구하기) | [C++](CodingTest/BFS:DFS/network.cpp)
+✅네트워크<br>(컴퓨터 개수와 연결에 대한 정보가 주어질 때, 네트워크 개수 구하기) | [C++]() | [Java](../Programmers/DFS&&BFS/network.java)
 ✅단어 변환<br>(주어진 규칙에 따라 단어를 변환하는 최소 횟수 구하기.) | [C++]() | [Java](../Programmers/DFS&&BFS/wordTransition.java)
 ✅여행 경로<br>(티켓들을 모두 사용하여 비행하는 방법 찾기) | [C++]() | [Java](../Programmers/DFS&&BFS/travelPath.java)
 
