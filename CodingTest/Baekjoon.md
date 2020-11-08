@@ -14,6 +14,7 @@ Baekjoon Number| C++ | Java
 [2841 외계인의 기타연주](https://www.acmicpc.net/problem/2841)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Ex_2841.cpp) |
 [2164 카드2](https://www.acmicpc.net/problem/2164)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Ex_2164.cpp) |
 [1966 프린터큐](https://www.acmicpc.net/problem/1966)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Ex_1966.cpp) |
+[1662 압축](https://www.acmicpc.net/problem/1662)|[C++]() | [Java](/CodingTest/Baekjoon/Queue_Stack/P1662.java)
 
 ### BFS, DFS
 Baekjoon Number| C++ | Java
