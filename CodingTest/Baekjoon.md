@@ -8,13 +8,13 @@ Baekjoon Number| C++ | Java
 
 ### Stack, Queue
 
-Baekjoon Number| C++ | Java
--|-|-
-[1918 후위 표기식](https://www.acmicpc.net/problem/1918)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Ex_1918.cpp) |
-[2841 외계인의 기타연주](https://www.acmicpc.net/problem/2841)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Ex_2841.cpp) |
-[2164 카드2](https://www.acmicpc.net/problem/2164)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Ex_2164.cpp) |
-[1966 프린터큐](https://www.acmicpc.net/problem/1966)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/Stack%26Queue/Ex_1966.cpp) |
-[1662 압축](https://www.acmicpc.net/problem/1662)|[C++]() | [Java](/CodingTest/Baekjoon/Queue_Stack/P1662.java)
+Baekjoon Number| Description | C++ | Java
+-|-|-|-
+[1918 후위 표기식](https://www.acmicpc.net/problem/1918)| | [C++]() |
+[2841 외계인의 기타연주](https://www.acmicpc.net/problem/2841)|  | [C++]() |
+[2164 카드2](https://www.acmicpc.net/problem/2164)|  | [C++]() |
+[1966 프린터큐](https://www.acmicpc.net/problem/1966)|  | [C++]() |
+[1662 압축](https://www.acmicpc.net/problem/1662)| 압축된 숫자를 풀었을 때 자릿수 구하기 |[C++]() | [Java](/CodingTest/Baekjoon/Queue_Stack/P1662.java)
 
 ### BFS, DFS
 Baekjoon Number| C++ | Java
@@ -89,18 +89,19 @@ Baekjoon Number| C++ | Java
 
 ## Implementation
 
-Baekjoon Number| C++ | Java
+Baekjoon Number| Description | Java
 -|-|-
-[14718 빗물](https://www.acmicpc.net/problem/14719)||[Java](/CodingTest/Baekjoon/Implementation/P4719.java)
+[14718 빗물](https://www.acmicpc.net/problem/14719)| 2차원 세계에서 벽 높이에 따라 고이는 물의 양 |[Java](/CodingTest/Baekjoon/Implementation/P4719.java)
 
 ## BFS DFS
 
-Baekjoon Number| C++ | Java
+Baekjoon Number| Description | Java
 -|-|-
 [1260 DFS와 BFS](https://www.acmicpc.net/problem/1260)||[Java](/CodingTest/Baekjoon/BFS:DFS/P1260.java)
 [2606 바이러스](https://www.acmicpc.net/problem/2606)||[Java](/CodingTest/Baekjoon/BFS:DFS/P2606.java)
-[1012 유기농 배추](https://www.acmicpc.net/problem/1012)||[Java](/CodingTest/Baekjoon/BFS:DFS/P1012.java)
+[1012 유기농 배추](https://www.acmicpc.net/problem/1012)| 배추들의 영역 갯수 구하기 |[Java](/CodingTest/Baekjoon/BFS:DFS/P1012.java)
 [⭐️ 2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)||[Java](/CodingTest/Baekjoon/BFS:DFS/P2206.java)
+[2667 단지 번호 붙이기](https://www.acmicpc.net/problem/2667)| 단지의 수와 각 단지 집의 수 구하기 |[Java](/CodingTest/Baekjoon/BFS:DFS/P2667.java)
 
 ## 삼성 SW 역량 테스트 기출 문제
 
