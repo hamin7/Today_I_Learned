@@ -1,3 +1,5 @@
+// 피보나치를 재귀가 아니라 함수로 짤 때의 장점은?
+
 package test;
 
 import java.util.Scanner;
