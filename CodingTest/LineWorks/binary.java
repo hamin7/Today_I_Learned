@@ -20,7 +20,33 @@ bit 연산자 및 shift 연산자
 
 */
 
+package test;
 
-public class binary {
-    
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		sc.close();
+		
+		int c = a^b;
+		String cString = Integer.toBinaryString(c);
+		
+		int count = 0;
+		
+		for (int i = 0; i < cString.length(); i++) {
+			System.out.println(Integer.toBinaryString(c));
+			if (cString.charAt(cString.length() - 1) - '0' == 1) {
+				count++;
+			}
+			c = c >> 1;
+		}
+		
+		System.out.println(count);
+	}
 }
