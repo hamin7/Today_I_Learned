@@ -1,4 +1,3 @@
-// you can also use imports, for example:
 import java.util.*;
 
 class Solution {
