@@ -102,6 +102,7 @@ Baekjoon Number| Description | Java
 [1012 유기농 배추](https://www.acmicpc.net/problem/1012)| 배추들의 영역 갯수 구하기 |[Java](/CodingTest/Baekjoon/BFS:DFS/P1012.java)
 [⭐️ 2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)||[Java](/CodingTest/Baekjoon/BFS:DFS/P2206.java)
 [2667 단지 번호 붙이기](https://www.acmicpc.net/problem/2667)| 단지의 수와 각 단지 집의 수 구하기 |[Java](/CodingTest/Baekjoon/BFS:DFS/P2667.java)
+[2178 ](https://www.acmicpc.net/problem/2178)|  |[Java](/CodingTest/Baekjoon/BFS:DFS/P2178.java)
 
 ## 삼성 SW 역량 테스트 기출 문제
 
