@@ -5,58 +5,61 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Main {
 	
-	static int[] dr = {1, -1, 0, 0};
-	static int[] dc = {0, 0, -1, 1};
-	static boolean[][] visited;
-	static int[][] map;
 	static int N, M;
-
+	static boolean[][] checked;
+	static int[] dx = {0, 1, 0, -1};	// 상우하좌
+	static int[] dy = {1, 0, -1, 0};
+	static int[][] maze;	// 미로
+	
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		
-		N = Integer.parseInt(st.nextToken());
-		M = Integer.parseInt(st.nextToken());
-		
-		map = new int[N][M];
-		visited = new boolean[N][M];
+		Scanner sc = new Scanner(System.in);
+		N = sc.nextInt();
+		M = sc.nextInt();
+		maze = new int[N][M];
+		checked = new boolean[N][M];
 		
 		for (int i = 0; i < N; i++) {
-			st = new StringTokenizer(br.readLine());
-			String line = st.nextToken();
-			
+			String temp = sc.next();	// 붙어서 입력되기 때문에 다음 공백까지 받아오는 .next() 사용
 			for (int j = 0; j < M; j++) {
-				map[i][j] = line.charAt(j) - '0';
+				maze[i][j] = (int)temp.charAt(j) - 48;	// 아스키코드 값 변환
 			}
 		}
-		
-		bfs(0, 0);
-		
-		System.out.println(map[N - 1][M - 1]);
+		bfs();
+		System.out.println(maze[N - 1][M - 1]);		// (N, M) 출력. 좌쵸값이기 때문에 -1
 	}
 	
-	public static void bfs(int i, int j) {
-		Queue<int[]> q = new LinkedList<>();
-		q.offer(new int[] {i, j});
+	public static void bfs() {
+		Queue<Integer> queue_x = new LinkedList<Integer>();		// x값에 대한 Queue
+		Queue<Integer> queue_y = new LinkedList<Integer>();		// y값에 대한 Queue
 		
-		while(!q.isEmpty()) {
-			int location[] = q.poll();
-			visited[i][j] = true;
+		queue_x.offer(0);	// 저장
+		queue_y.offer(0);
+		
+		checked[0][0] = true;
+		
+		while(!queue_x.isEmpty()) {
+			int x = queue_x.poll();
+			int y = queue_y.poll();
 			
-			for (int dir = 0; dir < 4; dir++) {
-				int r = location[0] + dr[dir];
-				int c = location[1] + dr[dir];
+			// 상하좌우 확인
+			for (int k = 0; k < 4; k++) {
+				int temp_x = x + dx[k];
+				int temp_y = y + dy[k];
 				
-				// 좌표가 -1이 되거나 N or M이 되어 map의 범위를 벗어나면 안되므로
-				if (r >= 0 && c >= 0 && r < N && c < M) {
-					if (map[r][c] != 0 && !visited[r][c]) {
-						q.offer(new int[] {r,c});
-						visited[r][c] = true;
-						map[r][c] = map[location[0]][location[1]] + 1;
+				// 유효한 범위인지 확인
+				if (temp_x >= 0 && temp_y >= 0 && temp_x < N && temp_y < M) {
+					if (maze[temp_x][temp_y] == 1 && checked[temp_x][temp_y] == false) {
+						queue_x.offer(temp_x);
+						queue_y.offer(temp_y);
+						
+						checked[temp_x][temp_y] = true;
+						
+						maze[temp_x][temp_y] = maze[x][y] + 1;		// 이동횟수
 					}
 				}
 			}
