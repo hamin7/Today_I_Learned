@@ -93,6 +93,13 @@ Baekjoon Number| Description | Java
 -|-|-
 [14718 빗물](https://www.acmicpc.net/problem/14719)| 2차원 세계에서 벽 높이에 따라 고이는 물의 양 |[Java](/CodingTest/Baekjoon/Implementation/P4719.java)
 
+## BruteForce
+
+Baekjoon Number| Description | Java
+-|-|-
+[2798 블랙잭](https://www.acmicpc.net/problem/2798)| 새로운 블랙잭 게임 |[Java](/CodingTest/Baekjoon/BruteForce/P2798.java)
+[2231 부분합](https://www.acmicpc.net/problem/2231)| 가장 작은 분해합 구하기 |[Java](/CodingTest/Baekjoon/BruteForce/P2231.java)
+
 ## BFS DFS
 
 Baekjoon Number| Description | Java
@@ -108,7 +115,7 @@ Baekjoon Number| Description | Java
 
 Baekjoon Number| Description | Java
 -|-|-
-[1003 피보나치 함수](https://www.acmicpc.net/problem/1003)||[Java](/CodingTest/Baekjoon/DynamicProgramming/P1003.java)
+[1003 피보나치 함수](https://www.acmicpc.net/problem/1003)| 피보나치 함수의 결과물 (시간복잡도 중요) |[Java](/CodingTest/Baekjoon/DynamicProgramming/P1003.java)
 
 ## 삼성 SW 역량 테스트 기출 문제
 
