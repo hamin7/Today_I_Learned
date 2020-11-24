@@ -1,36 +1,3 @@
-### Greedy, Brute-Force
-
-Baekjoon Number| C++ | Java
--|-|-
-[1541 잃어버린 괄호](https://www.acmicpc.net/problem/1541) | [C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/greedy/Ex_1541.cpp) |
-[14717 앉았다](https://www.acmicpc.net/problem/14717)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/greedy/Ex_14717.cpp) |
-[2875 대회 or 인턴](https://www.acmicpc.net/problem/2875)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/greedy/Ex_2875.cpp) |
-
-### Stack, Queue
-
-Baekjoon Number| Description | C++ | Java
--|-|-|-
-[1918 후위 표기식](https://www.acmicpc.net/problem/1918)| | [C++]() |
-[2841 외계인의 기타연주](https://www.acmicpc.net/problem/2841)|  | [C++]() |
-[2164 카드2](https://www.acmicpc.net/problem/2164)|  | [C++]() |
-[1966 프린터큐](https://www.acmicpc.net/problem/1966)|  | [C++]() |
-[1662 압축](https://www.acmicpc.net/problem/1662)| 압축된 숫자를 풀었을 때 자릿수 구하기 |[C++]() | [Java](/CodingTest/Baekjoon/Queue_Stack/P1662.java)
-
-### BFS, DFS
-Baekjoon Number| C++ | Java
--|-|-
-[10026 적록색약](https://www.acmicpc.net/problem/10026)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/BFS%20%26%26%20DFS/BOJ_10026.cpp) |
-[4179 불!](https://www.acmicpc.net/problem/4179)||
-[5427 불](https://www.acmicpc.net/problem/5427)||
-[1062 가르침](https://www.acmicpc.net/problem/1062)||[Java](/CodingTest/BFS:DFS/BOJ_1062.java)
-[1759 암호만들기](https://www.acmicpc.net/problem/1759)||[Java](/CodingTest/BFS:DFS/BOJ_1759.java)
-[3055 탈출](https://www.acmicpc.net/problem/3055)||[Java](/CodingTest/BFS:DFS/BOJ_3055.java)
-
-### Sort
-Baekjoon Number| C++ | Java
--|-|-
-[1713 후보추천](https://www.acmicpc.net/problem/1713)||[Java](/CodingTest/Sort/BOJ_1713.java)
-
 ### IO and Operation
 
 Baekjoon Number| C++ | Java
@@ -99,6 +66,9 @@ Baekjoon Number| Description | Java
 -|-|-
 [2798 블랙잭](https://www.acmicpc.net/problem/2798)| 새로운 블랙잭 게임 |[Java](/CodingTest/Baekjoon/BruteForce/P2798.java)
 [2231 부분합](https://www.acmicpc.net/problem/2231)| 가장 작은 분해합 구하기 |[Java](/CodingTest/Baekjoon/BruteForce/P2231.java)
+[7568 덩치](https://www.acmicpc.net/problem/7568)| 덩치 순위 알아내기 |[Java](/CodingTest/Baekjoon/BruteForce/P7568.java)
+[1018 체스 판 다시 칠하기](https://www.acmicpc.net/problem/1018)| 색을 다시 칠해야 할 최소 체스판의 수 |[Java](/CodingTest/Baekjoon/BruteForce/P1018.java)
+[1436 영화감독 숌](https://www.acmicpc.net/problem/1018)| 666을 포함하는 영화번호 만들기 |[Java](/CodingTest/Baekjoon/BruteForce/P1436.java)
 
 ## BFS DFS
 
@@ -116,6 +86,39 @@ Baekjoon Number| Description | Java
 Baekjoon Number| Description | Java
 -|-|-
 [1003 피보나치 함수](https://www.acmicpc.net/problem/1003)| 피보나치 함수의 결과물 (시간복잡도 중요) |[Java](/CodingTest/Baekjoon/DynamicProgramming/P1003.java)
+
+### Greedy, Brute-Force
+
+Baekjoon Number| C++ | Java
+-|-|-
+[1541 잃어버린 괄호](https://www.acmicpc.net/problem/1541) | [C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/greedy/Ex_1541.cpp) |
+[14717 앉았다](https://www.acmicpc.net/problem/14717)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/greedy/Ex_14717.cpp) |
+[2875 대회 or 인턴](https://www.acmicpc.net/problem/2875)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/greedy/Ex_2875.cpp) |
+
+### Stack, Queue
+
+Baekjoon Number| Description | C++ | Java
+-|-|-|-
+[1918 후위 표기식](https://www.acmicpc.net/problem/1918)| | [C++]() |
+[2841 외계인의 기타연주](https://www.acmicpc.net/problem/2841)|  | [C++]() |
+[2164 카드2](https://www.acmicpc.net/problem/2164)|  | [C++]() |
+[1966 프린터큐](https://www.acmicpc.net/problem/1966)|  | [C++]() |
+[1662 압축](https://www.acmicpc.net/problem/1662)| 압축된 숫자를 풀었을 때 자릿수 구하기 |[C++]() | [Java](/CodingTest/Baekjoon/Queue_Stack/P1662.java)
+
+### BFS, DFS
+Baekjoon Number| C++ | Java
+-|-|-
+[10026 적록색약](https://www.acmicpc.net/problem/10026)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/BFS%20%26%26%20DFS/BOJ_10026.cpp) |
+[4179 불!](https://www.acmicpc.net/problem/4179)||
+[5427 불](https://www.acmicpc.net/problem/5427)||
+[1062 가르침](https://www.acmicpc.net/problem/1062)||[Java](/CodingTest/BFS:DFS/BOJ_1062.java)
+[1759 암호만들기](https://www.acmicpc.net/problem/1759)||[Java](/CodingTest/BFS:DFS/BOJ_1759.java)
+[3055 탈출](https://www.acmicpc.net/problem/3055)||[Java](/CodingTest/BFS:DFS/BOJ_3055.java)
+
+### Sort
+Baekjoon Number| C++ | Java
+-|-|-
+[1713 후보추천](https://www.acmicpc.net/problem/1713)||[Java](/CodingTest/Sort/BOJ_1713.java)
 
 ## 삼성 SW 역량 테스트 기출 문제
 
