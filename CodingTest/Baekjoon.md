@@ -94,6 +94,7 @@ Baekjoon Number| C++ | Java
 [1541 잃어버린 괄호](https://www.acmicpc.net/problem/1541) | [C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/greedy/Ex_1541.cpp) |
 [14717 앉았다](https://www.acmicpc.net/problem/14717)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/greedy/Ex_14717.cpp) |
 [2875 대회 or 인턴](https://www.acmicpc.net/problem/2875)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/greedy/Ex_2875.cpp) |
+[9663 N-Queen](https://www.acmicpc.net/problem/9663)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_9663.java) |
 
 ### Stack, Queue
 
