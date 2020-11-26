@@ -31,9 +31,8 @@
 Baekjoon|[Baekjoon](/CodingTest/Baekjoon.md)
 Programmers|[Programmers](/CodingTest/Programmers/programmers.md)
 알고리즘 스터디|[스터디 링크](https://github.com/suhyun1/algorithm-study)
-SW Expert Academy|[SW Expert Academy](/CodingTest/SW_Expert_Academy.md)
 Samsung SDS 하계 알고리즘 특강|[Samsung SDS](/CodingTest/SDS/practice.md)
-Naver|[Naver Coding Exercise](/CodingTest/naverCodingTest.md)
+SW Expert Academy|[SW Expert Academy](/CodingTest/SW_Expert_Academy.md)
 
 이름|용도|설명
 -|-|-
