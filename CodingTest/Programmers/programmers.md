@@ -54,6 +54,16 @@ Programmers Number| C++ | Java
 ✅단어 변환<br>(주어진 규칙에 따라 단어를 변환하는 최소 횟수 구하기.) | [C++]() | [Java](../Programmers/DFS&&BFS/wordTransition.java)
 ✅여행 경로<br>(티켓들을 모두 사용하여 비행하는 방법 찾기) | [C++]() | [Java](../Programmers/DFS&&BFS/travelPath.java)
 
+### 기출
+Programmers| | hamin |
+-|-|-
+실패율 | 게임의 단계 별 실패 확률 구하기 | [code](https://hamin7.github.io/2020/11/26/failureRatio/)
+다트게임 |  | [code]
+비밀지도 |  | [code]
+오픈 채팅방 |  | [code]
+문자열 압축 |  | [code]
+크레인 인형뽑기 게임 |  | [code]
+튜플 |  | [code]
 
 
 ### 동적계획법 (Dynamic Programming)
