@@ -60,7 +60,7 @@ Programmers| | hamin |
 ✅ 실패율 | 게임의 단계 별 실패 확률 구하기 | [code](https://hamin7.github.io/2020/11/26/failureRatio/)
 ✅ 다트게임 | 다트게임 점수 구하기 | [code](https://hamin7.github.io/2020/11/26/dartGame/)
 ✅ 비밀지도 | 비트 연산자 이용하여 지도 합치기 | [code](https://hamin7.github.io/2020/11/26/secretMap/)
-오픈 채팅방 |  | [code]
+오픈 채팅방 | 채팅방에서 닉네임 바꾸는 것 반영하기 | [code](https://hamin7.github.io/2020/11/30/openChattingRoom/)
 문자열 압축 |  | [code]
 크레인 인형뽑기 게임 |  | [code]
 튜플 |  | [code]
