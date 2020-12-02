@@ -8,7 +8,7 @@
 ✅[D - 후보 추천하기](https://www.acmicpc.net/problem/1713)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1713.java)
 [E - 게임](https://www.acmicpc.net/problem/1103)|
 [F - 교환](https://www.acmicpc.net/problem/1039)|
-✅[G - 수 찾기](https://www.acmicpc.net/problem/1920)|
+✅[G - 수 찾기](https://www.acmicpc.net/problem/1920)|[Jaca](https://hamin7.github.io/2020/12/02/boj-1920/)
 ✅[H - N-Queen](https://www.acmicpc.net/problem/9663)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_9663.java)
 ✅[I - 암호 만들기](https://www.acmicpc.net/problem/1759)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.java) [C++](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.cpp)
 [J - 스도쿠](https://www.acmicpc.net/problem/2580)|
