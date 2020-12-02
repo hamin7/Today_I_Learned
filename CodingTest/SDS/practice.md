@@ -13,7 +13,7 @@
 ✅[I - 암호 만들기](https://www.acmicpc.net/problem/1759)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.java) [C++](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.cpp)
 [J - 스도쿠](https://www.acmicpc.net/problem/2580)|
 [K - 단어 수학](https://www.acmicpc.net/problem/1339)|
-[L - 치킨 배달](https://www.acmicpc.net/problem/15686)|
+✅[L - 치킨 배달](https://www.acmicpc.net/problem/15686)|[Java](https://hamin7.github.io/2020/12/02/boj-15686/)
 
 <br>
 
