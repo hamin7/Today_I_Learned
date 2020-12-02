@@ -3,12 +3,12 @@
 연습 문제|Code
 -|-
 [A - 고스택](https://www.acmicpc.net/problem/3425)|
-[B - 탈출](https://www.acmicpc.net/problem/3055)|[Java](/CodingTest/BFS:DFS/BOJ_3055.java)
+✅[B - 탈출](https://www.acmicpc.net/problem/3055)|[Java](/CodingTest/BFS:DFS/BOJ_3055.java)
 ✅[C - 가르침](https://www.acmicpc.net/problem/1062)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1062.java) [C++](/CodingTest/SDS/AlgorithmBasic/BOJ_1062.cpp)
-✅[D - 후부 추천하기](https://www.acmicpc.net/problem/1713)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1713.java)
+✅[D - 후보 추천하기](https://www.acmicpc.net/problem/1713)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1713.java)
 [E - 게임](https://www.acmicpc.net/problem/1103)|
 [F - 교환](https://www.acmicpc.net/problem/1039)|
-[G - 수 찾기](https://www.acmicpc.net/problem/1920)|
+✅[G - 수 찾기](https://www.acmicpc.net/problem/1920)|
 ✅[H - N-Queen](https://www.acmicpc.net/problem/9663)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_9663.java)
 ✅[I - 암호 만들기](https://www.acmicpc.net/problem/1759)|[Java](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.java) [C++](/CodingTest/SDS/AlgorithmBasic/BOJ_1759.cpp)
 [J - 스도쿠](https://www.acmicpc.net/problem/2580)|
@@ -184,7 +184,8 @@
 - [x] 10-7 구조체 정렬과 리스트 정렬. Comparator, 
 - [x] 10-8 후보 추천하기 (1173번)
 
-- [ ] 11-1 
+- [x] 11-1 시간복잡도, 완전탐색, 이분탐색, 병합 정렬
+- [ ] 11-2 
 
 <br>
 
