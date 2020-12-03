@@ -62,7 +62,7 @@ Programmers| | hamin |
 ✅ 비밀지도 | 비트 연산자 이용하여 지도 합치기 | [code](https://hamin7.github.io/2020/11/26/secretMap/)
 ✅ 오픈 채팅방 | 채팅방에서 닉네임 바꾸는 것 반영하기 | [code](https://hamin7.github.io/2020/11/30/openChattingRoom/)
 ✅ 문자열 압축 | 문자열 최대한 압축하기 | [code](https://hamin7.github.io/2020/12/01/string-compression/)
-크레인 인형뽑기 게임 |  | [code]
+✅ 크레인 인형뽑기 게임 | 인형 뽑아 연속되면 제거하기 게임 | [code](https://hamin7.github.io/2020/12/03/craneDrawingGame/)
 튜플 |  | [code]
 
 
