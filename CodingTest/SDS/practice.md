@@ -21,7 +21,7 @@
 
 연습 문제|Code
 -|-
-[A - 수들의 합 2](https://www.acmicpc.net/problem/2003)|
+✅ [A - 수들의 합 2](https://www.acmicpc.net/problem/2003)|[Java](https://hamin7.github.io/2020/08/11/boj-2003/)
 [B - 나무 자르기](https://www.acmicpc.net/problem/2805)|
 [C - 피보나치 수 2](https://www.acmicpc.net/problem/2748)|
 [D - 달리기](https://www.acmicpc.net/problem/2517)|
