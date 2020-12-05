@@ -60,6 +60,7 @@ Baekjoon Number| Description | Java
 -|-|-
 [14718 빗물](https://www.acmicpc.net/problem/14719)| 2차원 세계에서 벽 높이에 따라 고이는 물의 양 |[Java](/CodingTest/Baekjoon/Implementation/P4719.java)
 [14726 신용카드 판별](https://www.acmicpc.net/problem/14719) | 신용카드 번호가 유효한지 확인하기 | [Java](https://hamin7.github.io/2020/11/28/boj-14726/)
+[2676 문자열 반복](https://www.acmicpc.net/problem/2676) | 주어진 횟수만큼 문자열 반복하기 | [Java](https://hamin7.github.io/2020/12/05/boj-2675/)
 
 ## BruteForce
 
@@ -121,6 +122,11 @@ Baekjoon Number| C++ | Java
 Baekjoon Number| C++ | Java
 -|-|-
 [1713 후보추천](https://www.acmicpc.net/problem/1713)||[Java](/CodingTest/Sort/BOJ_1713.java)
+
+### Binary Search
+Baekjoon Number | Description | Java
+-|-|-
+[2805 나무 자르기](https://www.acmicpc.net/problem/2805)| 최대한 높은 절단기를 이용하여 원하는 양의 나무 잘라가기 |[Java](https://hamin7.github.io/2020/12/04/boj-2805/)
 
 ## 삼성 SW 역량 테스트 기출 문제
 
