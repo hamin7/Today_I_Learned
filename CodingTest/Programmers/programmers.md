@@ -63,7 +63,7 @@ Programmers| | hamin |
 ✅ 오픈 채팅방 | 채팅방에서 닉네임 바꾸는 것 반영하기 | [code](https://hamin7.github.io/2020/11/30/openChattingRoom/)
 ✅ 문자열 압축 | 문자열 최대한 압축하기 | [code](https://hamin7.github.io/2020/12/01/string-compression/)
 ✅ 크레인 인형뽑기 게임 | 인형 뽑아 연속되면 제거하기 게임 | [code](https://hamin7.github.io/2020/12/03/craneDrawingGame/)
-튜플 |  | [code]
+✅ 튜플 | 특정 튜플을 포함하는 집합이 담긴 문자열 리턴 | [code](https://hamin7.github.io/2020/12/06/tuple/)
 
 
 ### 동적계획법 (Dynamic Programming)
