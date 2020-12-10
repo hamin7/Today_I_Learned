@@ -113,7 +113,7 @@ Baekjoon Number| C++ | Java
 -|-|-
 [10026 적록색약](https://www.acmicpc.net/problem/10026)|[C++](https://github.com/suhyun1/algorithm-study/blob/master/hamin/BFS%20%26%26%20DFS/BOJ_10026.cpp) |
 [4179 불!](https://www.acmicpc.net/problem/4179)||
-[5427 불](https://www.acmicpc.net/problem/5427)||
+[5427 불](https://www.acmicpc.net/problem/5427)||[Java](https://hamin7.github.io/2020/12/09/boj-5427/)
 [1062 가르침](https://www.acmicpc.net/problem/1062)||[Java](/CodingTest/BFS:DFS/BOJ_1062.java)
 [1759 암호만들기](https://www.acmicpc.net/problem/1759)||[Java](/CodingTest/BFS:DFS/BOJ_1759.java)
 [3055 탈출](https://www.acmicpc.net/problem/3055)||[Java](/CodingTest/BFS:DFS/BOJ_3055.java)
