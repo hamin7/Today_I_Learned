@@ -23,12 +23,12 @@
 -|-
 ✅ [A - 수들의 합 2](https://www.acmicpc.net/problem/2003)|[Java](https://hamin7.github.io/2020/08/11/boj-2003/)
 ✅ [B - 나무 자르기](https://www.acmicpc.net/problem/2805)|[Java](https://hamin7.github.io/2020/12/04/boj-2805/)
-[C - 피보나치 수 2](https://www.acmicpc.net/problem/2748)|
+✅ [C - 피보나치 수 2](https://www.acmicpc.net/problem/2748)|[Java](https://hamin7.github.io/2020/12/12/boj-2748/)
 [D - 달리기](https://www.acmicpc.net/problem/2517)|
 [E - 부분합](https://www.acmicpc.net/problem/1806)|
 [F - 내려가기](https://www.acmicpc.net/problem/2096)|
 [G - 두 배열의 합](https://www.acmicpc.net/problem/2143)|
-[H - 게임](https://www.acmicpc.net/problem/1072)|
+✅ [H - 게임](https://www.acmicpc.net/problem/1072)|[Java](https://hamin7.github.io/2020/12/11/boj-1072/)
 [I - 합이 0인 네 정수](https://www.acmicpc.net/problem/7453)|
 [J - 집배원 한상덕](https://www.acmicpc.net/problem/2842)|
 [K - 최솟값 찾기](https://www.acmicpc.net/problem/11003)|
