@@ -41,7 +41,7 @@
 -|-
 ✅ [A - 스택](https://www.acmicpc.net/problem/10828)|[Java](https://hamin7.github.io/2020/12/14/boj-10828/)
 ✅ [B - 큐](https://www.acmicpc.net/problem/10845)|[Java](https://hamin7.github.io/2020/12/15/boj-10845/)
-[C - 트리 순회](https://www.acmicpc.net/problem/1991)|
+✅ [C - 트리 순회](https://www.acmicpc.net/problem/1991)|[Java](https://hamin7.github.io/2020/12/16/boj-1991/)
 [D - 구간 합 구하기](https://www.acmicpc.net/problem/2042)|
 [E - 괄호의 값](https://www.acmicpc.net/problem/2504)|
 [F - 트리인가?](https://www.acmicpc.net/problem/6416)|
