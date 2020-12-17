@@ -43,7 +43,7 @@
 ✅ [B - 큐](https://www.acmicpc.net/problem/10845)|[Java](https://hamin7.github.io/2020/12/15/boj-10845/)
 ✅ [C - 트리 순회](https://www.acmicpc.net/problem/1991)|[Java](https://hamin7.github.io/2020/12/16/boj-1991/)
 [D - 구간 합 구하기](https://www.acmicpc.net/problem/2042)|
-[E - 괄호의 값](https://www.acmicpc.net/problem/2504)|
+✅ [E - 괄호의 값](https://www.acmicpc.net/problem/2504)|[Java](https://hamin7.github.io/2020/12/17/boj-2504/)
 [F - 트리인가?](https://www.acmicpc.net/problem/6416)|
 [G - 이진 검색 트리](https://www.acmicpc.net/problem/5639)|
 [H - 생태학](https://www.acmicpc.net/problem/4358)|
