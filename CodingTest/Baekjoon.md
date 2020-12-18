@@ -100,13 +100,14 @@ Baekjoon Number| C++ | Java
 
 ### Stack, Queue
 
-Baekjoon Number| Description | C++ | Java
+Baekjoon Number| Description | Java
 -|-|-|-
-[1918 후위 표기식](https://www.acmicpc.net/problem/1918)| | [C++]() |
-[2841 외계인의 기타연주](https://www.acmicpc.net/problem/2841)|  | [C++]() |
-[2164 카드2](https://www.acmicpc.net/problem/2164)|  | [C++]() |
-[1966 프린터큐](https://www.acmicpc.net/problem/1966)|  | [C++]() |
-[1662 압축](https://www.acmicpc.net/problem/1662)| 압축된 숫자를 풀었을 때 자릿수 구하기 |[C++]() | [Java](/CodingTest/Baekjoon/Queue_Stack/P1662.java)
+[1918 후위 표기식](https://www.acmicpc.net/problem/1918)| | 
+[2841 외계인의 기타연주](https://www.acmicpc.net/problem/2841)|  | 
+[2164 카드2](https://www.acmicpc.net/problem/2164)|  | 
+[1966 프린터큐](https://www.acmicpc.net/problem/1966)|  | 
+[1662 압축](https://www.acmicpc.net/problem/1662)| 압축된 숫자를 풀었을 때 자릿수 구하기 |s [Java](/CodingTest/Baekjoon/Queue_Stack/P1662.java)
+[11279 최대 힙](https://www.acmicpc.net/problem/11279)| 0 입력 시 배열에서 가장 큰 값 출력 |[Java](https://hamin7.github.io/2020/12/18/boj-11279/)
 
 ### BFS, DFS
 Baekjoon Number| C++ | Java
