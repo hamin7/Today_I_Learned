@@ -48,7 +48,7 @@
 ✅ [G - 이진 검색 트리](https://www.acmicpc.net/problem/5639)|[Java](https://hamin7.github.io/2020/12/18/boj-5639/)
 [H - 생태학](https://www.acmicpc.net/problem/4358)|
 [I - Boggle](https://www.acmicpc.net/problem/9202)|
-[J - 최소 힙](https://www.acmicpc.net/problem/1927)|
+✅ [J - 최소 힙](https://www.acmicpc.net/problem/1927)|[Java](https://hamin7.github.io/2020/12/18/boj-1927/)
 [K - 최대 힙](https://www.acmicpc.net/problem/11279)|
 [L - 가운데를 말해요](https://www.acmicpc.net/problem/1655)|
 [M - 보석 도둑](https://www.acmicpc.net/problem/1202)|
