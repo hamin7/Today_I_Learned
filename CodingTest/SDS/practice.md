@@ -45,7 +45,7 @@
 [D - 구간 합 구하기](https://www.acmicpc.net/problem/2042)|
 ✅ [E - 괄호의 값](https://www.acmicpc.net/problem/2504)|[Java](https://hamin7.github.io/2020/12/17/boj-2504/)
 [F - 트리인가?](https://www.acmicpc.net/problem/6416)|
-[G - 이진 검색 트리](https://www.acmicpc.net/problem/5639)|
+✅ [G - 이진 검색 트리](https://www.acmicpc.net/problem/5639)|[Java](https://hamin7.github.io/2020/12/18/boj-5639/)
 [H - 생태학](https://www.acmicpc.net/problem/4358)|
 [I - Boggle](https://www.acmicpc.net/problem/9202)|
 [J - 최소 힙](https://www.acmicpc.net/problem/1927)|
