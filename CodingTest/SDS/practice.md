@@ -53,7 +53,7 @@
 [L - 가운데를 말해요](https://www.acmicpc.net/problem/1655)|
 [M - 보석 도둑](https://www.acmicpc.net/problem/1202)|
 [N - 사탕상자](https://www.acmicpc.net/problem/2243)|
-[O - 개똥벌레](https://www.acmicpc.net/problem/3020)|
+✅ [O - 개똥벌레](https://www.acmicpc.net/problem/3020)|[Java](https://hamin7.github.io/2020/12/19/boj-3020/)
 [P - 커피숍2](https://www.acmicpc.net/problem/1275)|
 [Q - 소수의 곱](https://www.acmicpc.net/problem/2014)|
 [R - 강수량](https://www.acmicpc.net/problem/2094)|
