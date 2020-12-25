@@ -64,7 +64,7 @@
 
 연습 문제|Code
 -|-
-[A - 분수 합](https://www.acmicpc.net/problem/1735)|
+✅ [A - 분수 합](https://www.acmicpc.net/problem/1735)|[Java](https://hamin7.github.io/2020/12/20/boj-1735/)
 [B - 최대공약수 하나 뺴기](https://www.acmicpc.net/problem/14476)|
 [C - 캔디 분배](https://www.acmicpc.net/problem/3955)|
 [D - 에라토스테네스의 체](https://www.acmicpc.net/problem/2960)|
