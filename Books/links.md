@@ -41,3 +41,6 @@ https://nomad-academy.teachable.com/p/create-a-kawai-to-do-app-with-react-native
 
 ## React vs Vue
 https://joshua1988.github.io/web_dev/vue-or-react/
+
+## React Native로 Todo 앱 만들기
+https://www.youtube.com/watch?v=zG7328Qm0LQ
