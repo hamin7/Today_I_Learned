@@ -20,3 +20,6 @@ https://www.youtube.com/watch?v=Xbuijv2lHk0
 
 ## NextJS와 Redis를 이용한 Todo List
 - https://github.com/kimdugong/to-do-list
+
+## React + Django + MySQL + Redux + REST API 
+- https://new93helloworld.tistory.com/338
