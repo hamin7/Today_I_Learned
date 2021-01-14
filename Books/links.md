@@ -15,3 +15,5 @@ https://wiki.chelsea.kt.co.kr/xwiki/bin/view/Main/SW%EA%B0%9C%EB%B0%9C%EB%B3%B8%
 https://fkkmemi.github.io/electron/electron-03-todo/
 
 https://kdydesign.github.io/2019/04/15/electron-tutorial/
+
+https://www.youtube.com/watch?v=Xbuijv2lHk0
