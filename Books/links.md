@@ -38,3 +38,6 @@ https://www.inflearn.com/course/vue-pwa-vue-js-%EC%A4%91%EA%B8%89#
 
 ## React Native로 todo앱
 https://nomad-academy.teachable.com/p/create-a-kawai-to-do-app-with-react-native
+
+## React vs Vue
+https://joshua1988.github.io/web_dev/vue-or-react/
