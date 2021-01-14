@@ -18,4 +18,5 @@ https://kdydesign.github.io/2019/04/15/electron-tutorial/
 
 https://www.youtube.com/watch?v=Xbuijv2lHk0
 
-https://github.com/kimdugong/to-do-list
+## NextJS와 Redis를 이용한 Todo List
+- https://github.com/kimdugong/to-do-list
