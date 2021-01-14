@@ -23,3 +23,6 @@ https://www.youtube.com/watch?v=Xbuijv2lHk0
 
 ## React + Django + MySQL + Redux + REST API 
 - https://new93helloworld.tistory.com/338
+
+## 기술스택 고르기
+https://velog.io/@hipiction/Final-Project-SR-techStack
