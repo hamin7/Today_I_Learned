@@ -26,3 +26,9 @@ https://www.youtube.com/watch?v=Xbuijv2lHk0
 
 ## 기술스택 고르기
 https://velog.io/@hipiction/Final-Project-SR-techStack
+
+## 일렉트론 강좌 샘플
+https://www.inflearn.com/course/javascript-%EC%9D%BC%EB%A0%89%ED%8A%B8%EB%A1%A0-%EA%B0%95%EC%A2%8C#reviews
+
+## Electron, NodeJS 강좌
+https://www.inflearn.com/course/electron-2#curriculum
