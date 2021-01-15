@@ -15,8 +15,10 @@ https://wiki.chelsea.kt.co.kr/xwiki/bin/view/Main/SW%EA%B0%9C%EB%B0%9C%EB%B3%B8%
 ## 일렉트론 뷰 투두 앱
 https://fkkmemi.github.io/electron/electron-03-todo/
 
+## Electron 개념부터 데스크탑 앱 만들기
 https://kdydesign.github.io/2019/04/15/electron-tutorial/
 
+## Electron 투두앱
 https://www.youtube.com/watch?v=Xbuijv2lHk0
 
 ## NextJS와 Redis를 이용한 Todo List
