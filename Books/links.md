@@ -58,3 +58,6 @@ https://www.npmjs.com/package/react-native-sound-player
 
 ## React Native - how to build an audio player in react native
 https://blog.jscrambler.com/how-to-build-an-audio-player-in-react-native/
+
+## Electron
+https://kdydesign.github.io/2019/04/15/electron-tutorial/
