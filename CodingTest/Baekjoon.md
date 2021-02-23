@@ -82,6 +82,7 @@ Baekjoon Number| Description | Java
 [⭐️ 2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)||[Java](/CodingTest/Baekjoon/BFS:DFS/P2206.java)
 [2667 단지 번호 붙이기](https://www.acmicpc.net/problem/2667)| 단지의 수와 각 단지 집의 수 구하기 |[Java](/CodingTest/Baekjoon/BFS:DFS/P2667.java)
 [2178 미로 찾기](https://www.acmicpc.net/problem/2178)|  |[Java](/CodingTest/Baekjoon/BFS:DFS/P2178.java)
+[1389 케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)| |[Java](https://hamin7.github.io/2021/01/10/boj-1389/)
 
 ## Dynamic Programming
 
